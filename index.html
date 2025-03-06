@@ -1345,6 +1345,7 @@
           }
         ]
       },
+
       { 
         code: "1099-6/99", 
         description: "Fabricação de outros produtos alimentícios não especificados anteriormente", 
@@ -2969,7 +2970,7 @@
       const pact = municipiosPact[municipio];
       let orientacoes = "";
       if (overallRisk === 1) {
-        if (redesimMunicipios.includes(municipio)) {
+        if (jucemgMunicipios.includes(municipio)) {
           orientacoes = '<a href="https://portalservicos.jucemg.mg.gov.br/auth/realms/Portalservicos/protocol/openid-connect/auth?response_type=code&client_id=licenciamento&redirect_uri=https%3A%2F%2Fportalservicos.jucemg.mg.gov.br%2Flicenciamento-web%2Fpages%2Flicenciamento%2FconsultarLicenciamentoEmpresa.jsf&state=9d714170-4208-424f-96a6-4001df65c6c1&login=true&scope=openid" target="_blank" class="btn btn-custom">Acessar Portal REDESIM MG</a>';
         } else {
           orientacoes = "Procure a Vigilância Sanitária de " + municipio + ".";
