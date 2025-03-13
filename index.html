@@ -492,43 +492,48 @@
 
     let cnaeCount = 0;
     window.adicionarCNAE = function() {
-      if (!window.combinedCnaes) {
-        alert("Dados de CNAE ainda não carregados.");
-        return;
-      }
       cnaeCount++;
-      const novoCNAE = `
-        <div class="cnae-card" data-uniqueid="${cnaeCount}">
-          <div class="row g-3 align-items-center">
-            <div class="col-md-9">
-              <select class="form-select cnae-select" data-uniqueid="${cnaeCount}" onchange="verificarCNAE(this)">
-                <option value=""></option>
-                ${window.combinedCnaes.map(cnae => `
-                  <option value="${cnae.code}" ${cnaesSelecionados.has(cnae.code) ? 'disabled' : ''}>
-                    ${cnae.code} - ${cnae.description}
-                  </option>
-                `).join('')}
-              </select>
-            </div>
-            <div class="col-md-3">
-              <button class="btn btn-danger w-100" onclick="removerCNAE(this)">
-                <i class="fas fa-trash"></i>
-              </button>
-            </div>
-          </div>
-          <div class="questions-container" style="display:none; margin-top:10px;"></div>
-        </div>
-      `;
-      $('#cnaesContainer').append(novoCNAE);
-      $('.cnae-select:last').select2({ placeholder: 'Selecione um CNAE', width: '100%' });
+      const container = document.getElementById('cnaesContainer');
+      const div = document.createElement('div');
+      div.className = 'cnae-row';
+      div.id = 'cnaeRow_' + cnaeCount;
+
+      let selectHTML = '<label>CNAE:</label>';
+      selectHTML += `<select onchange="verificarCNAE(this, ${cnaeCount})" id="cnaeSelect_${cnaeCount}" class="form-select mb-2">`;
+      selectHTML += '<option value=""></option>';
+      
+      const cnaesUnicos = {};
+      cnaesData.forEach(c => {
+        cnaesUnicos[c.code] = c.description;
+      });
+      for (const code in cnaesUnicos) {
+        selectHTML += `<option value="${code}">${code} - ${cnaesUnicos[code]}</option>`;
+      }
+      selectHTML += '</select>';
+      div.innerHTML = selectHTML;
+
+      const questionsContainer = document.createElement('div');
+      questionsContainer.id = 'questionsContainer_' + cnaeCount;
+      questionsContainer.style.display = 'none';
+      div.appendChild(questionsContainer);
+
+      const removeBtn = document.createElement('button');
+      removeBtn.type = 'button';
+      removeBtn.className = 'btn btn-danger mt-2';
+      removeBtn.innerHTML = '<i class="fas fa-trash"></i> Remover CNAE';
+      removeBtn.onclick = function() {
+        if (confirm('Deseja realmente remover este CNAE?')) {
+          removerCNAE(div.id);
+        }
+      };
+      div.appendChild(removeBtn);
+
+      container.appendChild(div);
+      initSelect2(`cnaeSelect_${cnaeCount}`);
     };
 
-    window.removerCNAE = function(botao) {
-      const card = $(botao).closest('.cnae-card');
-      const codigo = card.find('select').val();
-      cnaesSelecionados.delete(codigo);
-      $('.cnae-select option[value="'+codigo+'"]').prop('disabled', false);
-      card.remove();
+    window.removerCNAE = function(id) {
+      document.getElementById(id).remove();
     };
 
     window.verificarCNAE = function(selectElem) {
