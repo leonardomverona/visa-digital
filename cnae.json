@@ -1,0 +1,1408 @@
+[
+    {
+        "CNAE": "0892-4/03",
+        "Descrição": "Refino e outros tratamentos do sal",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "1032-5/01",
+        "Descrição": "Fabricação de conservas de palmito",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "1041-4/00",
+        "Descrição": "Fabricação de óleos vegetais em bruto, exceto óleo de milho",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "1042-2/00",
+        "Descrição": "Fabricação de óleos vegetais refinados, exceto óleo de milho",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "1062-7/00",
+        "Descrição": "Moagem de trigo e fabricação de derivados",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "1065-1/02",
+        "Descrição": "Fabricação de óleo de milho em bruto",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "1065-1/03",
+        "Descrição": "Fabricação de óleo de milho refinado",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "1072-4/01",
+        "Descrição": "Fabricação de açúcar de cana refinado",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "1121-6/00",
+        "Descrição": "Fabricação de águas envasadas",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "1122-4/04",
+        "Descrição": "Fabricação de bebidas isotônicas",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "1033-3/02",
+        "Descrição": "Fabricação de sucos de frutas, hortaliças e legumes, exceto concentrados",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "1043-1/00",
+        "Descrição": "Fabricação de margarina e outras gorduras vegetais e de óleos não-comestíveis de animais",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "1072-4/02",
+        "Descrição": "Fabricação de açúcar de cereais (dextrose) e de beterraba",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "1092-9/00",
+        "Descrição": "Fabricação de biscoitos e bolachas",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "A produção é realizada por métodos artesanais?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1093-7/01",
+        "Descrição": "Fabricação de produtos derivados do cacau e de chocolates",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "A produção é realizada por métodos artesanais?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1093-7/02",
+        "Descrição": "Fabricação de frutas cristalizadas, balas e semelhantes",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "A produção é realizada por métodos artesanais?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "8610-1/01",
+        "Descrição": "Atividades de atendimento hospitalar, exceto pronto-socorro e unidades para atendimento a urgências",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8610-1/02",
+        "Descrição": "Atividades de atendimento em pronto-socorro e unidades hospitalares para atendimento a urgências",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8630-5/07",
+        "Descrição": "Atividades de reprodução humana assistida",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8640-2/03",
+        "Descrição": "Serviços de diálise e nefrologia",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8640-2/04",
+        "Descrição": "Serviços de tomografia",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8640-2/06",
+        "Descrição": "Serviços de ressonância magnética",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8640-2/10",
+        "Descrição": "Serviços de quimioterapia",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8640-2/11",
+        "Descrição": "Serviços de radioterapia",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8640-2/12",
+        "Descrição": "Serviços de hemoterapia",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8640-2/14",
+        "Descrição": "Serviços de bancos de células e tecidos humanos",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8640-2/99",
+        "Descrição": "Serviços de complementação diagnóstica e terapêutica",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8650-0/07",
+        "Descrição": "Atividades de terapia de nutrição enteral e parenteral",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8129-0/00",
+        "Descrição": "Atividades de limpeza não especificadas anteriormente",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8690-9/02",
+        "Descrição": "Atividades de bancos de leite humano",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "1742-7/01",
+        "Descrição": "Fabricação de fraldas descartáveis",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "1742-7/02",
+        "Descrição": "Fabricação de absorventes higiênicos",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "2052-5/00",
+        "Descrição": "Fabricação de desinfestantes domissanitários",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "2061-4/00",
+        "Descrição": "Fabricação de sabões e detergentes sintéticos",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "2062-2/00",
+        "Descrição": "Fabricação de produtos de limpeza e polimento",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "2063-1/00",
+        "Descrição": "Fabricação de cosméticos, produtos de perfumaria e de higiene pessoal",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "2110-6/00",
+        "Descrição": "Fabricação de produtos farmoquímicos",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "2123-8/00",
+        "Descrição": "Fabricação de preparações farmacêuticas",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "2660-4/00",
+        "Descrição": "Fabricação de aparelhos eletromédicos e equipamentos de irradiação",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "3250-7/06",
+        "Descrição": "Serviços de prótese dentária",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "4729-6/01",
+        "Descrição": "Tabacaria",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "4774-1/00",
+        "Descrição": "Comércio varejista de artigos de óptica",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "5222-2/00",
+        "Descrição": "Terminais rodoviários e ferroviários",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "5510-8/01",
+        "Descrição": "Hotéis",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "5510-8/02",
+        "Descrição": "Apart-hotéis",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "5510-8/03",
+        "Descrição": "Motéis",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "5590-6/01",
+        "Descrição": "Albergues, exceto assistenciais",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "5590-6/02",
+        "Descrição": "Campings",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "5590-6/03",
+        "Descrição": "Pensões (alojamento)",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "5590-6/99",
+        "Descrição": "Outros alojamentos não especificados anteriormente",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8121-4/00",
+        "Descrição": "Limpeza em prédios e em domicílios",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8122-2/00",
+        "Descrição": "Imunização e controle de pragas urbanas",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8511-2/00",
+        "Descrição": "Educação infantil - creche",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8512-1/00",
+        "Descrição": "Educação infantil - pré-escola",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8513-9/00",
+        "Descrição": "Ensino fundamental",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8520-1/00",
+        "Descrição": "Ensino médio",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8531-7/00",
+        "Descrição": "Educação superior - graduação",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8532-5/00",
+        "Descrição": "Educação superior - graduação e pós-graduação",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8533-3/00",
+        "Descrição": "Educação superior - pós-graduação e extensão",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8541-4/00",
+        "Descrição": "Educação profissional de nível técnico",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8542-2/00",
+        "Descrição": "Educação profissional de nível tecnológico",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8591-1/00",
+        "Descrição": "Ensino de esportes",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8711-5/02",
+        "Descrição": "Instituições de longa permanência para idosos",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8711-5/05",
+        "Descrição": "Condomínios residenciais para idosos",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8730-1/01",
+        "Descrição": "Orfanatos",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8730-1/02",
+        "Descrição": "Albergues assistenciais",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8730-1/99",
+        "Descrição": "Atividades de assistência social prestadas em residências coletivas e particulares não especificadas anteriormente",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "8800-6/00",
+        "Descrição": "Serviços de assistência social sem alojamento",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "9312-3/00",
+        "Descrição": "Clubes sociais, esportivos e similares",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "9313-1/00",
+        "Descrição": "Atividades de condicionamento físico",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "9321-2/00",
+        "Descrição": "Parques de diversão e parques temáticos",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "9601-7/01",
+        "Descrição": "Lavanderias",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "9601-7/03",
+        "Descrição": "Toalheiros",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "9602-5/01",
+        "Descrição": "Cabeleireiros, manicure e pedicure",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "9602-5/02",
+        "Descrição": "Atividades de estética e outros serviços de cuidados com a beleza",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "9603-3/01",
+        "Descrição": "Gestão e manutenção de cemitérios",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "9603-3/02",
+        "Descrição": "Serviços de cremação",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "9603-3/03",
+        "Descrição": "Serviços de sepultamento",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "9603-3/04",
+        "Descrição": "Serviços de funerárias",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "9603-3/99",
+        "Descrição": "Atividades funerárias e serviços relacionados não especificados anteriormente",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "9609-2/05",
+        "Descrição": "Atividades de sauna e banhos",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "9609-2/06",
+        "Descrição": "Serviços de tatuagem e colocação de piercing",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "3312-1/03",
+        "Descrição": "Manutenção e reparação de aparelhos eletromédicos e equipamentos de irradiação",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "4771-7/01",
+        "Descrição": "Comércio varejista de produtos farmacêuticos, sem manipulação de fórmulas",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "4772-5/00",
+        "Descrição": "Comércio varejista de cosméticos, produtos de perfumaria e de higiene pessoal",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "4773-3/00",
+        "Descrição": "Comércio varejista de artigos médicos e ortopédicos",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "4789-0/05",
+        "Descrição": "Comércio varejista de produtos saneantes domissanitários",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "7729-2/03",
+        "Descrição": "Aluguel de material médico",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "7739-0/02",
+        "Descrição": "Aluguel de equipamentos científicos, médicos e hospitalares, sem operador",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "4729-6/02",
+        "Descrição": "Comércio varejista de mercadorias em lojas de conveniência",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "4789-0/99",
+        "Descrição": "Comércio varejista de outros produtos não especificados anteriormente",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "5310-5/01",
+        "Descrição": "Atividades do Correio Nacional",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "5310-5/02",
+        "Descrição": "Atividades de franqueadas e permissionárias do Correio Nacional",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "5320-2/01",
+        "Descrição": "Serviços de malote não realizados pelo Correio Nacional",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "5320-2/02",
+        "Descrição": "Serviços de entrega rápida",
+        "Observação": "",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "1731-1/00",
+        "Descrição": "Fabricação de embalagens de papel",
+        "Observação": "",
+        "RiscoFixo": "1",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "1732-0/00",
+        "Descrição": "Fabricação de embalagens de cartolina e papel-cartão",
+        "Observação": "",
+        "RiscoFixo": "1",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "1733-8/00",
+        "Descrição": "Fabricação de chapas e de embalagens de papelão ondulado",
+        "Observação": "",
+        "RiscoFixo": "1",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "2019-3/99",
+        "Descrição": "Fabricação de outros produtos químicos inorgânicos não especificados anteriormente",
+        "Observação": "",
+        "RiscoFixo": "1",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "2029-1/00",
+        "Descrição": "Fabricação de produtos químicos orgânicos não especificados anteriormente",
+        "Observação": "",
+        "RiscoFixo": "1",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "2071-1/00",
+        "Descrição": "Fabricação de tintas, vernizes, esmaltes e lacas",
+        "Observação": "",
+        "RiscoFixo": "1",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "2091-6/00",
+        "Descrição": "Fabricação de adesivos e selantes",
+        "Observação": "",
+        "RiscoFixo": "1",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "2093-2/00",
+        "Descrição": "Fabricação de aditivos de uso industrial",
+        "Observação": "",
+        "RiscoFixo": "1",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "2219-6/00",
+        "Descrição": "Fabricação de artefatos de borracha não especificados anteriormente",
+        "Observação": "",
+        "RiscoFixo": "1",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "2222-6/00",
+        "Descrição": "Fabricação de embalagens de material plástico",
+        "Observação": "",
+        "RiscoFixo": "1",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "2312-5/00",
+        "Descrição": "Fabricação de embalagens de vidro",
+        "Observação": "",
+        "RiscoFixo": "1",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "2591-8/00",
+        "Descrição": "Fabricação de embalagens metálicas",
+        "Observação": "Nível de Risco III",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "2829-1/99",
+        "Descrição": "Fabricação de outras máquinas e equipamentos de uso geral não especificados anteriormente, peças e acessórios",
+        "Observação": "",
+        "RiscoFixo": "1",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "7210-0/00",
+        "Descrição": "Pesquisa e desenvolvimento experimental em ciências físicas e naturais",
+        "Observação": "",
+        "RiscoFixo": "1",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "1031-7/00",
+        "Descrição": "Fabricação de conservas de frutas",
+        "Observação": "Se a produção for artesanal.",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "A produção de conservas de frutas é realizada por métodos artesanais?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": null
+                    }
+                ]
+            },
+            {
+                "id": "q2",
+                "text": "O estabelecimento é micro, pequena ou média empresa?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 2
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1099-6/99",
+        "Descrição": "Fabricação de outros produtos alimentícios não especificados anteriormente",
+        "Observação": "Se a produção for artesanal e/ou dispensado de registro sanitário.",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "A produção é realizada por métodos artesanais?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": null
+                    }
+                ]
+            },
+            {
+                "id": "q2",
+                "text": "O estabelecimento é micro, pequena ou média empresa?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 2
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1063-5/00",
+        "Descrição": "Fabricação de farinha de mandioca e derivados",
+        "Observação": "Se a produção for artesanal.",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "A produção é realizada por métodos artesanais?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1064-3/00",
+        "Descrição": "Fabricação de farinha de milho e derivados, exceto óleos de milho",
+        "Observação": "Se a produção for artesanal.",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "A produção é realizada por métodos artesanais?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1065-1/01",
+        "Descrição": "Fabricação de amidos e féculas de vegetais",
+        "Observação": "Se a produção for artesanal.",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "A produção é realizada por métodos artesanais?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1069-4/00",
+        "Descrição": "Moagem e fabricação de produtos de origem vegetal não especificados anteriormente",
+        "Observação": "Se a produção for artesanal.",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "A produção é realizada por métodos artesanais?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1071-6/00",
+        "Descrição": "Fabricação de açúcar em bruto",
+        "Observação": "Se a produção for artesanal.",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "A produção é realizada por métodos artesanais?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1061-9/01",
+        "Descrição": "Beneficiamento de arroz",
+        "Observação": "Informe se o beneficiamento é artesanal ou industrial.",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "O beneficiamento de arroz é realizado por métodos artesanais?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1061-9/02",
+        "Descrição": "Fabricação de produtos do arroz",
+        "Observação": "Se a produção for artesanal.",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "A produção é realizada por métodos artesanais?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1081-3/02",
+        "Descrição": "Torrefação e moagem de café",
+        "Observação": "Se a produção for artesanal.",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "A produção é realizada por métodos artesanais?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1082-1/00",
+        "Descrição": "Fabricação de produtos à base de café",
+        "Observação": "Se a produção for artesanal.",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "A produção é realizada por métodos artesanais?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1091-1/01",
+        "Descrição": "Fabricação de produtos de panificação industrial",
+        "Observação": "Conforme critérios: se a produção for artesanal ou industrial.",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "A produção é realizada por métodos artesanais?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1094-5/00",
+        "Descrição": "Fabricação de massas alimentícias",
+        "Observação": "Se a produção for artesanal.",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "A produção é realizada por métodos artesanais?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1095-3/00",
+        "Descrição": "Fabricação de especiarias, molhos, temperos e condimentos",
+        "Observação": "Se a produção for artesanal.",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "A produção é realizada por métodos artesanais?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1096-1/00",
+        "Descrição": "Fabricação de alimentos e pratos prontos",
+        "Observação": "Se a produção for artesanal.",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "A produção é realizada por métodos artesanais?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1099-6/05",
+        "Descrição": "Fabricação de produtos para infusão (chá, mate, etc.)",
+        "Observação": "Se a produção for artesanal.",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "A produção é realizada por métodos artesanais?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1053-8/00",
+        "Descrição": "Fabricação de sorvetes e outros gelados comestíveis",
+        "Observação": "Se microempresa conforme os critérios da Resolução 222/2006 ANVISA.",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "O estabelecimento é micro, pequena ou média empresa?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1099-6/02",
+        "Descrição": "Fabricação de pós alimentícios",
+        "Observação": "Se microempresa conforme os critérios da Resolução 222/2006 ANVISA.",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "O estabelecimento é micro, pequena ou média empresa?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1099-6/03",
+        "Descrição": "Fabricação de fermentos e leveduras",
+        "Observação": "Se microempresa conforme os critérios da Resolução 222/2006 ANVISA.",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "O estabelecimento é micro, pequena ou média empresa?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1099-6/06",
+        "Descrição": "Fabricação de adoçantes naturais e artificiais",
+        "Observação": "Se microempresa conforme os critérios da Resolução 222/2006 ANVISA.",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "O estabelecimento é micro, pequena ou média empresa?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1099-6/07",
+        "Descrição": "Fabricação de alimentos dietéticos e complementos alimentares",
+        "Observação": "Se microempresa conforme os critérios da Resolução 222/2006 ANVISA.",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "O estabelecimento é micro, pequena ou média empresa?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 1
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "1122-4/99",
+        "Descrição": "Fabricação de outras bebidas não-alcoólicas",
+        "Observação": "Se fabricante de grande porte",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "O estabelecimento é de grande porte?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 3
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "7120-1/00",
+        "Descrição": "Testes e análises técnicas",
+        "Observação": "Se laboratório de análises clínicas",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "O laboratório realiza ensaios clínicos?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 3
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "8640-2/02",
+        "Descrição": "Laboratórios clínicos",
+        "Observação": "Se laboratório de biologia molecular",
+        "RiscoFixo": "",
+        "Perguntas": [
+            {
+                "id": "q1",
+                "text": "O laboratório realiza ensaios clínicos?",
+                "options": [
+                    {
+                        "value": "SIM",
+                        "risk": 3
+                    },
+                    {
+                        "value": "NÃO",
+                        "risk": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CNAE": "2591-8/00",
+        "Descrição": "Fabricação de embalagens metálicas",
+        "Observação": "Nível de Risco III",
+        "RiscoFixo": "3",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "7210-0/00",
+        "Descrição": "Pesquisa e desenvolvimento experimental em ciências físicas e naturais",
+        "Observação": "",
+        "RiscoFixo": "1",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "2312-5/00",
+        "Descrição": "Fabricação de embalagens de vidro",
+        "Observação": "",
+        "RiscoFixo": "1",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "2222-6/00",
+        "Descrição": "Fabricação de embalagens de material plástico",
+        "Observação": "",
+        "RiscoFixo": "1",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "2093-2/00",
+        "Descrição": "Fabricação de aditivos de uso industrial",
+        "Observação": "",
+        "RiscoFixo": "1",
+        "Perguntas": []
+    },
+    {
+        "CNAE": "2071-1/00",
+        "Descrição": "Fabricação de tintas, vernizes, esmaltes e lacas",
+        "Observação": "",
+        "RiscoFixo": "1",
+        "Perguntas": []
+    }
+]
