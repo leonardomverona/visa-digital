@@ -1625,7 +1625,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"1.0",
+            "text":"Pergunta com ID 1.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -1643,7 +1656,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"1.0",
+            "text":"Pergunta com ID 1.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -1661,7 +1687,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"1.0",
+            "text":"Pergunta com ID 1.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -1688,7 +1727,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"1.0",
+            "text":"Pergunta com ID 1.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -1724,7 +1776,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"1.0",
+            "text":"Pergunta com ID 1.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -1733,7 +1798,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"1.0",
+            "text":"Pergunta com ID 1.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -1751,7 +1829,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"1.0",
+            "text":"Pergunta com ID 1.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -1760,7 +1851,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"1.0",
+            "text":"Pergunta com ID 1.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -1769,7 +1873,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"1.0",
+            "text":"Pergunta com ID 1.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -1805,7 +1922,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"1.0",
+            "text":"Pergunta com ID 1.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -1814,7 +1944,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"1.0",
+            "text":"Pergunta com ID 1.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -1850,7 +1993,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"1.0",
+            "text":"Pergunta com ID 1.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -1859,7 +2015,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"1.0",
+            "text":"Pergunta com ID 1.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -1868,7 +2037,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"1.0",
+            "text":"Pergunta com ID 1.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -1886,7 +2068,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"1.0",
+            "text":"Pergunta com ID 1.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -1895,7 +2090,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"1.0",
+            "text":"Pergunta com ID 1.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -1904,7 +2112,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"10.0",
+            "text":"Pergunta com ID 10.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -1913,7 +2134,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"10.0",
+            "text":"Pergunta com ID 10.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -1922,7 +2156,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"12.0",
+            "text":"Pergunta com ID 12.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -1931,7 +2178,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"13.0",
+            "text":"Pergunta com ID 13.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -1976,7 +2236,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"14.0",
+            "text":"Pergunta com ID 14.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -2003,7 +2276,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"16.0",
+            "text":"Pergunta com ID 16.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -2102,7 +2388,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"19.0",
+            "text":"Pergunta com ID 19.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -2597,7 +2896,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"19.0",
+            "text":"Pergunta com ID 19.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -2606,7 +2918,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"19.0",
+            "text":"Pergunta com ID 19.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -2615,7 +2940,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"19.0",
+            "text":"Pergunta com ID 19.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -2876,7 +3214,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"2.0",
+            "text":"Pergunta com ID 2.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -2894,7 +3245,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"20.0",
+            "text":"Pergunta com ID 20.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -2921,7 +3285,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"21.0",
+            "text":"Pergunta com ID 21.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":2
+               }
+            ]
+         }
       ]
    },
    {
@@ -3011,7 +3388,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"21.0",
+            "text":"Pergunta com ID 21.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":2
+               }
+            ]
+         }
       ]
    },
    {
@@ -3038,7 +3428,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"22.0",
+            "text":"Pergunta com ID 22.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -3074,7 +3477,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"25.0",
+            "text":"Pergunta com ID 25.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":2
+               }
+            ]
+         }
       ]
    },
    {
@@ -3182,7 +3598,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"26.0",
+            "text":"Pergunta com ID 26.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -3200,7 +3629,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"27.0",
+            "text":"Pergunta com ID 27.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -3263,7 +3705,27 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"28.0",
+            "text":"Pergunta com ID 28.0 não encontrada",
+            "options":[
+               
+            ]
+         },
+         {
+            "id":"P3",
+            "text":"Há transporte de medicamentos,  gases medicinais, produtos de higiene,  perfumes, cosméticos, saneantes, insumos  para fabricação dos mesmos, produtos para saúde ou material biológico humano?",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":2
+               }
+            ]
+         }
       ]
    },
    {
@@ -3785,7 +4247,27 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"28.0",
+            "text":"Pergunta com ID 28.0 não encontrada",
+            "options":[
+               
+            ]
+         },
+         {
+            "id":"P3",
+            "text":"Há transporte de medicamentos,  gases medicinais, produtos de higiene,  perfumes, cosméticos, saneantes, insumos  para fabricação dos mesmos, produtos para saúde ou material biológico humano?",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":2
+               }
+            ]
+         }
       ]
    },
    {
@@ -4253,7 +4735,27 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"28.0",
+            "text":"Pergunta com ID 28.0 não encontrada",
+            "options":[
+               
+            ]
+         },
+         {
+            "id":"P3",
+            "text":"Há transporte de medicamentos,  gases medicinais, produtos de higiene,  perfumes, cosméticos, saneantes, insumos  para fabricação dos mesmos, produtos para saúde ou material biológico humano?",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":2
+               }
+            ]
+         }
       ]
    },
    {
@@ -4631,7 +5133,27 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"28.0",
+            "text":"Pergunta com ID 28.0 não encontrada",
+            "options":[
+               
+            ]
+         },
+         {
+            "id":"P4",
+            "text":"Há transporte de medicamentos, gases medicinais, produtos de higiene,  perfumes, cosméticos, saneantes, insumos para fabricação dos mesmos ou produtos  para saúde?",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":2
+               }
+            ]
+         }
       ]
    },
    {
@@ -4829,7 +5351,27 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"28.0",
+            "text":"Pergunta com ID 28.0 não encontrada",
+            "options":[
+               
+            ]
+         },
+         {
+            "id":"P5",
+            "text":" transporte de medicamentos, gases medicinais, gases substâncias ativas, produtos de higiene, perfumes, cosméticos, saneantes, insumos para fabricação dos mesmos, produtos para saúde ou material biológico humano?",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":2
+               }
+            ]
+         }
       ]
    },
    {
@@ -4847,7 +5389,27 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"28.0",
+            "text":"Pergunta com ID 28.0 não encontrada",
+            "options":[
+               
+            ]
+         },
+         {
+            "id":"P5",
+            "text":" transporte de medicamentos, gases medicinais, gases substâncias ativas, produtos de higiene, perfumes, cosméticos, saneantes, insumos para fabricação dos mesmos, produtos para saúde ou material biológico humano?",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":2
+               }
+            ]
+         }
       ]
    },
    {
@@ -4865,7 +5427,27 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"28.0",
+            "text":"Pergunta com ID 28.0 não encontrada",
+            "options":[
+               
+            ]
+         },
+         {
+            "id":"P5",
+            "text":" transporte de medicamentos, gases medicinais, gases substâncias ativas, produtos de higiene, perfumes, cosméticos, saneantes, insumos para fabricação dos mesmos, produtos para saúde ou material biológico humano?",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":2
+               }
+            ]
+         }
       ]
    },
    {
@@ -4955,7 +5537,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"29.0",
+            "text":"Pergunta com ID 29.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -6521,7 +7116,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"29.0",
+            "text":"Pergunta com ID 29.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -7340,7 +7948,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"3.0",
+            "text":"Pergunta com ID 3.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -7385,7 +8006,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"30.0",
+            "text":"Pergunta com ID 30.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -7763,7 +8397,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"30.0",
+            "text":"Pergunta com ID 30.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -7934,7 +8581,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"31.0",
+            "text":"Pergunta com ID 31.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -7943,7 +8603,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"32.0",
+            "text":"Pergunta com ID 32.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -8096,7 +8769,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"33.0",
+            "text":"Pergunta com ID 33.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":2
+               }
+            ]
+         }
       ]
    },
    {
@@ -8105,7 +8791,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"33.0",
+            "text":"Pergunta com ID 33.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":2
+               }
+            ]
+         }
       ]
    },
    {
@@ -8114,7 +8813,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"34.0",
+            "text":"Pergunta com ID 34.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -8186,7 +8898,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"35.0",
+            "text":"Pergunta com ID 35.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -8195,7 +8920,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"36.0",
+            "text":"Pergunta com ID 36.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":2
+               }
+            ]
+         }
       ]
    },
    {
@@ -8312,7 +9050,27 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"38.0",
+            "text":"Pergunta com ID 38.0 não encontrada",
+            "options":[
+               
+            ]
+         },
+         {
+            "id":"P2",
+            "text":"Há realização de atendimento de optometria com nível superior (tecnólogo ou graduado) ?",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -8330,7 +9088,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"39.0",
+            "text":"Pergunta com ID 39.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":2
+               }
+            ]
+         }
       ]
    },
    {
@@ -8348,7 +9119,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"4.0",
+            "text":"Pergunta com ID 4.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":1
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -8627,7 +9411,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"40.0",
+            "text":"Pergunta com ID 40.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":2
+               }
+            ]
+         }
       ]
    },
    {
@@ -9068,7 +9865,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"41.0",
+            "text":"Pergunta com ID 41.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -9077,7 +9887,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"42.0",
+            "text":"Pergunta com ID 42.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":2
+               }
+            ]
+         }
       ]
    },
    {
@@ -9905,7 +10728,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"43.0",
+            "text":"Pergunta com ID 43.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":2
+               }
+            ]
+         }
       ]
    },
    {
@@ -9914,7 +10750,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"44.0",
+            "text":"Pergunta com ID 44.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -10130,7 +10979,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"45.0",
+            "text":"Pergunta com ID 45.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":2
+               }
+            ]
+         }
       ]
    },
    {
@@ -10220,7 +11082,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"46.0",
+            "text":"Pergunta com ID 46.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -10283,7 +11158,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"47.0",
+            "text":"Pergunta com ID 47.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -10463,7 +11351,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"49.0",
+            "text":"Pergunta com ID 49.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":2
+               }
+            ]
+         }
       ]
    },
    {
@@ -10544,7 +11445,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"5.0",
+            "text":"Pergunta com ID 5.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -10967,7 +11881,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"50.0",
+            "text":"Pergunta com ID 50.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -10976,7 +11903,27 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"51.0",
+            "text":"Pergunta com ID 51.0 não encontrada",
+            "options":[
+               
+            ]
+         },
+         {
+            "id":"P1",
+            "text":"A produção é artesanal?",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -11183,7 +12130,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"52.0",
+            "text":"Pergunta com ID 52.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -11219,7 +12179,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"52.0",
+            "text":"Pergunta com ID 52.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -11273,7 +12246,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"53.0",
+            "text":"Pergunta com ID 53.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -11336,7 +12322,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"6.0",
+            "text":"Pergunta com ID 6.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":2
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -11381,7 +12380,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"7.0",
+            "text":"Pergunta com ID 7.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":1
+               },
+               {
+                  "value":"NÃO",
+                  "risk":3
+               }
+            ]
+         }
       ]
    },
    {
@@ -11588,7 +12600,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"8.0",
+            "text":"Pergunta com ID 8.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -11831,7 +12856,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"8.0",
+            "text":"Pergunta com ID 8.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -11849,7 +12887,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"8.0",
+            "text":"Pergunta com ID 8.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
@@ -11903,7 +12954,20 @@
       "Observação":"",
       "RiscoFixo":"",
       "Perguntas":[
-         
+         {
+            "id":"9.0",
+            "text":"Pergunta com ID 9.0 não encontrada",
+            "options":[
+               {
+                  "value":"SIM",
+                  "risk":3
+               },
+               {
+                  "value":"NÃO",
+                  "risk":1
+               }
+            ]
+         }
       ]
    },
    {
