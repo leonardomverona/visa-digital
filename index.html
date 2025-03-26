@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>VISA Digital - Licenciamento Sanitário</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <!-- Google Fonts: Inter -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+  <!-- FontAwesome para ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Select2 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css">
+  <!-- html2pdf.js (para exportar PDF) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+  <style>
+    :root {
+      --primary-color: #003087;
+      --secondary-color: #00AEEF;
+      --accent-color: #001F5B;
+      --background-color: #f8fafc;
+      --card-bg: #ffffff;
+      --text-color: #1e293b;
+      --transition-speed: 0.3s;
+      --gradient-primary: linear-gradient(135deg, #003087 0%, #00AEEF 100%);
+    }
+    /* Dark Mode Variables - cores ajustadas para tons mais escuros */
+    body.dark-mode {
+      --background-color: #121212;
+      --card-bg: #1e1e1e;
+      --text-color: #e0e0e0;
+      --primary-color: #0D47A1;   /* Azul escuro */
+      --secondary-color: #1565C0; /* Azul complementar escuro */
+      --gradient-primary: linear-gradient(135deg, #0D47A1 0%, #1565C0 100%);
+      scrollbar-color: #444 #2c2c2c;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      line-height: 1.6;
+      margin: 0;
+      padding-top: 80px; /* Espaço para o cabeçalho fixo */
+    }
+    /* Justificação dos parágrafos e listas */
+    p, li, .accordion-body, .orientacoes p {
+      text-align: justify;
+    }
+    /* Cabeçalho */
+    header {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+      transition: all 0.3s ease;
+      padding: 0 20px;
+    }
+    body.dark-mode header {
+      background: rgba(18, 18, 18, 0.95);
+      box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+    }
+    .navbar-brand .logo-text .main-title {
+      color: var(--primary-color);
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    body.dark-mode .logo-text .subtitle {
+      color: #fff !important;
+    }
+    .navbar-nav .nav-link {
+      color: var(--text-color) !important;
+      font-weight: 500;
+      position: relative;
+      padding: 0.5rem 1.2rem !important;
+    }
+    .navbar-nav .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 1.2rem;
+      width: 0;
+      height: 2px;
+      background: var(--secondary-color);
+      transition: width var(--transition-speed) ease;
+    }
+    .navbar-nav .nav-link:hover::after {
+      width: calc(100% - 2.4rem);
+    }
+    .dark-mode-toggle {
+      cursor: pointer;
+      font-size: 1.2rem;
+    }
+    /* Hero Section */
+    .hero {
+      height: 90vh;
+      background: var(--gradient-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding-top: 80px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(255,255,255,0.1) 10%, transparent 11%);
+      background-size: 50px 50px;
+      animation: grid-animation 20s linear infinite;
+    }
+    @keyframes grid-animation {
+      0% { transform: translate(0,0); }
+      100% { transform: translate(-50px,-50px); }
+    }
+    .hero h1 {
+      font-size: 4rem;
+      font-weight: 800;
+      letter-spacing: -1.5px;
+      text-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      position: relative;
+      z-index: 1;
+    }
+    .hero p {
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+      position: relative;
+      z-index: 1;
+    }
+    .hero .btn {
+      padding: 1rem 2.5rem;
+      border-radius: 50px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      border: 2px solid white;
+      z-index: 1;
+    }
+    .hero .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+    /* Conteúdo */
+    .content-section {
+      padding: 100px 20px;
+    }
+    .content-section h2 {
+      color: var(--primary-color);
+      font-weight: 800;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      position: relative;
+      display: inline-block;
+    }
+    .content-section h2::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      width: 60px;
+      height: 4px;
+      background: var(--secondary-color);
+      border-radius: 2px;
+    }
+    /* Orientações */
+    .orientacoes {
+      margin-bottom: 3rem;
+    }
+    .orientacoes p {
+      margin-bottom: 1rem;
+    }
+    .orientacoes h3 {
+      font-weight: 700;
+      margin-top: 1.5rem;
+      color: var(--primary-color);
+    }
+    body.dark-mode ul,
+    body.dark-mode li {
+      color: #e0e0e0;
+    }
+    /* Formulário */
+    .form-section {
+      background: var(--card-bg);
+      padding: 2.5rem;
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease;
+      margin-bottom: 2rem;
+    }
+    .form-section:hover {
+      transform: translateY(-5px);
+    }
+    .form-label {
+      font-weight: 600;
+      color: var(--primary-color);
+      margin-bottom: 0.5rem;
+    }
+    .form-control, .form-select {
+      border: 2px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 0.75rem 1.25rem;
+      transition: all 0.3s ease;
+    }
+    body.dark-mode .form-control,
+    body.dark-mode .form-select {
+      background-color: #2c2c2c;
+      color: #e0e0e0;
+      border: 1px solid #444;
+    }
+    body.dark-mode .form-control::placeholder,
+    body.dark-mode .form-select::placeholder {
+      color: #aaa;
+    }
+    .btn-primary {
+      background: var(--gradient-primary);
+      border: none;
+      padding: 0.875rem 2rem;
+      border-radius: 12px;
+      font-weight: 600;
+      transition: all 0.3s ease !important;
+    }
+    .btn-primary:hover {
+      opacity: 0.9;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0, 48, 135, 0.2);
+    }
+    /* Accordion */
+    .accordion {
+      border: none;
+      margin-top: 20px;
+    }
+    .accordion-item {
+      border-radius: 15px !important;
+      margin-bottom: 1rem;
+      border: 1px solid rgba(0, 0, 0, 0.05) !important;
+      background: var(--card-bg);
+    }
+    body.dark-mode .accordion-item {
+      border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    }
+    .accordion-header {
+      background: transparent;
+    }
+    .accordion-button {
+      border-radius: 15px !important;
+      font-weight: 600;
+      padding: 1.25rem;
+      background: var(--primary-color);
+      color: #fff;
+      transition: background var(--transition-speed) ease, color var(--transition-speed) ease;
+    }
+    .accordion-button:not(.collapsed) {
+      background: var(--secondary-color);
+      color: #fff;
+    }
+    .accordion-button:focus {
+      box-shadow: none;
+      outline: none;
+    }
+    .accordion-button::after {
+      font-family: "Font Awesome 6 Free";
+      font-weight: 900;
+      content: "\f107";
+      transition: transform var(--transition-speed) ease;
+    }
+    .accordion-button:not(.collapsed)::after {
+      transform: rotate(180deg);
+    }
+    .accordion-body {
+      background: #fafafa;
+      color: #333;
+      padding: 20px;
+      border-top: 1px solid #e0e0e0;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    body.dark-mode .accordion-body {
+      background: var(--card-bg);
+      color: var(--text-color);
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .accordion-body a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+    .accordion-body a:hover {
+      text-decoration: underline;
+    }
+    /* Resultado */
+    .result .alert {
+      border-radius: 20px;
+      border: none;
+      background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+    }
+    body.dark-mode .result .alert {
+      background: linear-gradient(135deg, #1e1e1e 0%, #121212 100%);
+      box-shadow: 0 8px 32px rgba(255, 255, 255, 0.05);
+      color: #e0e0e0;
+    }
+    body.dark-mode .result .alert p,
+    body.dark-mode .result .alert span {
+      color: #e0e0e0;
+    }
+    .result h3 {
+      color: var(--primary-color);
+      font-weight: 800;
+      position: relative;
+      padding-bottom: 1rem;
+    }
+    .result h3::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 60px;
+      height: 3px;
+      background: var(--secondary-color);
+    }
+    /* Select2 - Estilos para os selects (CNAE e Municípios) no modo escuro */
+    body.dark-mode .select2-container .select2-selection {
+      background-color: #2c2c2c;
+      color: #e0e0e0;
+      border: 1px solid #444;
+    }
+    body.dark-mode .select2-container .select2-selection__rendered {
+      color: #e0e0e0;
+    }
+    body.dark-mode .select2-container--default .select2-results__option {
+      background-color: #2c2c2c;
+      color: #e0e0e0;
+    }
+    body.dark-mode .select2-container--default .select2-results__option--highlighted {
+      background-color: var(--primary-color);
+      color: #fff;
+    }
+    /* Select2 Search - filtro dos selects em dark mode */
+    body.dark-mode .select2-container--default .select2-search--dropdown .select2-search__field {
+      background-color: #2c2c2c;
+      color: #e0e0e0;
+      border: 1px solid #444;
+    }
+    /* Select2 Dropdown - contorno e fundo da janela suspensa */
+    body.dark-mode .select2-container--default .select2-dropdown {
+      background-color: #2c2c2c;
+      border: 1px solid #444;
+      color: #e0e0e0;
+    }
+    /* Scrollbar - modo escuro (WebKit) */
+    body.dark-mode ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    body.dark-mode ::-webkit-scrollbar-track {
+      background: #2c2c2c;
+    }
+    body.dark-mode ::-webkit-scrollbar-thumb {
+      background: #444;
+      border-radius: 4px;
+    }
+    /* Media Queries para dispositivos móveis */
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 2.5rem; }
+      .hero p { font-size: 1.2rem; }
+      .content-section { padding: 60px 20px; }
+      .form-section { padding: 1.5rem; }
+    }
+    @media (max-width: 576px) {
+      header { padding: 0 10px; }
+      body { padding-top: 100px; }
+      .hero h1 { font-size: 2rem; }
+      .hero p { font-size: 1rem; }
+      .content-section { padding: 40px 10px; }
+      .form-section { padding: 1rem; }
+      .navbar-brand .logo-text .main-title { font-size: 1.2rem; }
+      .navbar-brand .logo-text .subtitle { font-size: 0.9rem; }
+      .select2-container .select2-selection { font-size: 0.9rem; }
+      .select2-container .select2-selection__rendered { font-size: 0.9rem; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <nav class="navbar navbar-expand-lg container">
+      <a class="navbar-brand" href="#inicio">
+        <div class="logo-container">
+          <!-- SVG do logo (conteúdo omitido para brevidade) -->
+          <svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452.04 122.67" height="40" width="40" preserveAspectRatio="xMidYMid meet" focusable="false">
+            <defs>
+              <style>.cls-1 { fill: var(--primary-color); }</style>
+            </defs>
+            <!-- Conteúdo do SVG omitido -->
+          </svg>
+        </div>
+        <div class="logo-text ms-2">
+          <div class="main-title">VISA Digital</div>
+          <div class="subtitle">Licenciamento Sanitário</div>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Orientações</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servico">Formulário</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+          <li class="nav-item">
+            <a href="javascript:void(0);" class="nav-link dark-mode-toggle" onclick="toggleDarkMode()" title="Alternar Modo Escuro">
+              <i id="darkModeIcon" class="fas fa-moon"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="progress-container">
+      <div id="progressBar" class="progress-bar"></div>
+    </div>
+  </header>
+
+  <!-- Seção Hero -->
+  <section class="hero" id="inicio">
+    <div class="hero-content text-white">
+      <img src="https://visadigital.saude.mg.gov.br/assets/images/tela-inicial.png" alt="VISA Digital" class="mb-4" style="max-width: 300px;">
+      <h1>Licenciamento Sanitário</h1>
+      <p>Orientações e Procedimentos para Funcionamento Seguro</p>
+      <a href="#servico" class="btn btn-lg btn-outline-light">Iniciar</a>
+    </div>
+  </section>
+
+  <!-- Conteúdo Principal -->
+  <main class="container content-section">
+    <!-- Orientações -->
+    <section class="orientacoes" id="sobre">
+      <h2>Orientações para o Licenciamento Sanitário</h2>
+      <p>
+        O Licenciamento Sanitário é o processo que comprova que seu estabelecimento segue as regras de saúde e segurança para funcionar, protegendo assim a saúde de todos. Este processo é fundamentado na <strong>Lei Federal nº 9.782/1999</strong>, na <strong>Lei Estadual nº 13.317/1999</strong> e na <strong>Resolução SES/MG nº 8.765, de 16 de maio de 2023</strong>.
+      </p>
+      <p>
+        <strong>Lembre-se:</strong> Informe o município onde seu estabelecimento está localizado, pois é nesse local que as regras e a fiscalização serão aplicadas.
+      </p>
+      <h3>Classificação de Risco</h3>
+      <ul>
+        <li><strong>Atividades Não Sujeitas à Vigilância Sanitária:</strong> Se sua atividade não apresenta risco para a saúde, não é necessário o licenciamento sanitário.</li>
+        <li><strong>Risco Nível I:</strong> Mesmo com risco leve, o alvará não é obrigatório, mas as boas práticas de saúde devem ser seguidas, já que a Vigilância pode fiscalizar se houver denúncias.</li>
+        <li><strong>Risco Nível II:</strong> Para atividades de risco moderado, é necessária autorização para iniciar. Se o município utilizar um módulo simplificado, o alvará pode ser expedido sem vistoria prévia – que será realizada posteriormente. Caso contrário, procure a Vigilância Sanitária local. Exemplo: acesse o portal da REDESIM ou o VISA Digital Municípios.</li>
+        <li><strong>Risco Nível III:</strong> Atividades de alto risco exigem projeto arquitetônico aprovado e inspeção prévia. Se o município fizer parte dos elencos A ou B, o processo é realizado via VISA Digital; se for do elenco C com o módulo do VISA Digital Municípios, acesse-o conforme as orientações. Caso contrário, procure a Vigilância Sanitária da cidade.</li>
+      </ul>
+      <h3>Passos e Documentos Necessários</h3>
+      <p>
+        <strong>Para Risco Nível I:</strong> Verifique se o estabelecimento segue as boas práticas de higiene e segurança.<br>
+        <em>Documentos:</em> Comprovante de inscrição e, se aplicável, o documento do responsável técnico.
+      </p>
+      <p>
+        <strong>Para Risco Nível II:</strong> Se o módulo simplificado estiver disponível, siga as instruções do sistema ou entre em contato com a Vigilância Sanitária local.<br>
+        <em>Documentos:</em> Contrato social (para pessoa jurídica), comprovante de endereço, alvará de localização (se houver) e comprovante de pagamento da taxa, se necessário.
+      </p>
+      <p>
+        <strong>Para Risco Nível III:</strong> Elabore o projeto arquitetônico conforme as normas vigentes, submeta-o para avaliação e agende a inspeção prévia. Efetue o pagamento da taxa de expediente, se aplicável.<br>
+        <em>Documentos:</em> Projeto aprovado, termo de responsabilidade técnica, comprovante de pagamento da taxa e demais documentos exigidos pela legislação.
+      </p>
+    </section>
+
+    <!-- Accordion de Serviços -->
+    <section id="servicos" class="mt-5">
+      <h2>Serviços de Licenciamento Sanitário</h2>
+      <p class="mb-4">
+        Confira abaixo os procedimentos específicos para cada classificação de risco:
+      </p>
+      <div class="accordion" id="accordionServicos">
+        <!-- Alto Risco -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingAltoRisco">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAltoRisco" aria-expanded="false" aria-controls="collapseAltoRisco">
+              Alvará Sanitário – Estabelecimentos de Alto Risco
+            </button>
+          </h2>
+          <div id="collapseAltoRisco" class="accordion-collapse collapse" aria-labelledby="headingAltoRisco" data-bs-parent="#accordionServicos">
+            <div class="accordion-body">
+              <strong>O que é?</strong><br>
+              Estabelecimentos com atividades de Risco Nível III exigem aprovação do projeto arquitetônico e inspeção prévia. Quando a competência é estadual, o processo é realizado via SEI!MG.
+              <hr>
+              <strong>Procedimentos:</strong>
+              <ol>
+                <li><strong>Cadastro no SEI!MG:</strong> Realize o cadastro de usuário externo para peticionamento eletrônico. (<em>Canal:</em> <a href="https://www.sei.mg.gov.br/sei/controlador_externo.php?acao=usuario_externo_avisar_cadastro&id_orgao_acesso_externo=0" target="_blank">Cadastro de Usuário Externo</a> – Gratuito)</li>
+                <li><strong>Peticionamento Eletrônico:</strong> Selecione “SES – Solicitação de Alvará Sanitário” no SEI e anexe os documentos necessários. (<em>Exemplo:</em> <a href="https://www.saude.mg.gov.br/images/1_noticias/09_2021/01_jan-fev-marc/licenciamento-sanitario/26-03-Nivel_III.pdf" target="_blank">Procedimento de Alto Risco</a>)</li>
+                <li><strong>Pagamento da Taxa:</strong> Efetue o pagamento conforme as orientações da Secretaria de Fazenda.</li>
+              </ol>
+              <strong>Tempo Estimado:</strong> Aproximadamente 60 dias.<br>
+              <strong>Legislação:</strong> Lei Estadual 13.317/99, Resolução SES/MG nº 3.337/2021, entre outras.
+            </div>
+          </div>
+        </div>
+        <!-- Baixo Risco -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingBaixoRisco">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBaixoRisco" aria-expanded="false" aria-controls="collapseBaixoRisco">
+              Alvará Sanitário – Estabelecimentos de Baixo Risco
+            </button>
+          </h2>
+          <div id="collapseBaixoRisco" class="accordion-collapse collapse" aria-labelledby="headingBaixoRisco" data-bs-parent="#accordionServicos">
+            <div class="accordion-body">
+              <strong>O que é?</strong><br>
+              Para estabelecimentos de Risco Nível II, os procedimentos são simplificados e, em muitos casos, dispensam vistoria prévia, conforme orientação da Vigilância Sanitária Municipal.
+              <hr>
+              <strong>Procedimentos:</strong>
+              <ol>
+                <li>Entre em contato com a Vigilância Sanitária do seu município para cadastro e orientações.</li>
+                <li>Envie os documentos essenciais (e complementares, se necessário).</li>
+              </ol>
+              <strong>Tempo Estimado:</strong> Variável – consulte a Vigilância Sanitária Municipal.<br>
+              <strong>Mais Informações:</strong> <a href="https://www.saude.mg.gov.br/licenciamentosanitario-risco2" target="_blank">Licenciamento Sanitário – Baixo Risco</a>.
+            </div>
+          </div>
+        </div>
+        <!-- Avaliação de Projeto Arquitetônico -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingProjetoArquitetonico">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProjetoArquitetonico" aria-expanded="false" aria-controls="collapseProjetoArquitetonico">
+              Avaliação de Projeto Arquitetônico
+            </button>
+          </h2>
+          <div id="collapseProjetoArquitetonico" class="accordion-collapse collapse" aria-labelledby="headingProjetoArquitetonico" data-bs-parent="#accordionServicos">
+            <div class="accordion-body">
+              <strong>O que é?</strong><br>
+              Estabelecimentos de alto risco devem submeter seu projeto arquitetônico para avaliação, a fim de verificar a conformidade com as normas sanitárias vigentes.
+              <hr>
+              <strong>Procedimentos:</strong>
+              <ol>
+                <li><strong>Pagamento da Taxa:</strong> Calcule o valor com base na área construída (segundo a UFEMG vigente).</li>
+                <li><strong>Envio de Documentos:</strong> Protocolize o requerimento, relatório técnico, projeto, memória de cálculo e comprovante de pagamento (DAE).</li>
+                <li>Em alguns casos, a avaliação é realizada pela Vigilância Sanitária Estadual.</li>
+              </ol>
+              <strong>Tempo Estimado:</strong> Aproximadamente 60 dias.<br>
+              <strong>Legislação:</strong> Artigo 89 da Lei Estadual 13.317/99, RDC 51/11 da Anvisa, Resolução SES/MG nº 3.337/2021, entre outras.<br>
+              <strong>Mais Informações:</strong> <a href="https://www.saude.mg.gov.br/licenciamentosanitario-aprovacao-projetos" target="_blank">Avaliação de Projeto Arquitetônico</a>.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulário -->
+    <section id="servico" class="mt-5">
+      <div id="step1" class="form-section">
+        <form id="riskForm" novalidate>
+          <script>
+            function updateProgress(percent) {
+              document.getElementById("progressBar").style.width = percent + "%";
+            }
+            updateProgress(20);
+          </script>
+          <div class="row g-3 mb-4">
+            <div class="col-md-6">
+              <label class="form-label">Tipo de Cadastro:</label>
+              <div class="btn-group w-100" role="group">
+                <input type="radio" class="btn-check" name="tipoCadastro" id="cadPF" value="PF" checked onchange="atualizarDocLabel()">
+                <label class="btn btn-outline-primary" for="cadPF">Pessoa Física</label>
+                <input type="radio" class="btn-check" name="tipoCadastro" id="cadPJ" value="PJ" onchange="atualizarDocLabel()">
+                <label class="btn btn-outline-primary" for="cadPJ">Pessoa Jurídica</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Tipo de Concessão:</label>
+              <div class="btn-group w-100" role="group">
+                <input type="radio" class="btn-check" name="tipoConcessao" id="concessaoInicial" value="Inicial" checked>
+                <label class="btn btn-outline-primary" for="concessaoInicial">Concessão Inicial</label>
+                <input type="radio" class="btn-check" name="tipoConcessao" id="concessaoRenovacao" value="Renovacao">
+                <label class="btn btn-outline-primary" for="concessaoRenovacao">Renovação</label>
+              </div>
+            </div>
+          </div>
+          <div class="row g-3 mb-4">
+            <div class="col-md-4">
+              <label id="docLabel" class="form-label">CPF:</label>
+              <input type="text" id="doc" class="form-control" placeholder="000.000.000-00" required>
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Razão Social:</label>
+              <input type="text" id="razao" class="form-control" required>
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Nome Fantasia:</label>
+              <input type="text" id="nome_fantasia" class="form-control" required>
+            </div>
+          </div>
+          <div class="mb-4">
+            <h5>Atividades Econômicas (CNAEs)</h5>
+            <p>Selecione as atividades econômicas para o alvará.</p>
+            <div id="cnaesContainer"></div>
+            <button type="button" class="btn btn-secondary" onclick="adicionarCNAE()">
+              <i class="fas fa-plus me-2"></i>Adicionar CNAE
+            </button>
+          </div>
+          <div class="row g-3 mb-4">
+            <div class="col-md-6">
+              <label class="form-label">Município:</label>
+              <select id="municipio" class="form-select" required></select>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <button type="button" class="btn btn-primary" onclick="calcularRisco(); updateProgress(100); nextStep(2);">
+              Enviar <i class="fas fa-arrow-right ms-2"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+      <!-- Resultado -->
+      <div id="step2" class="form-section" style="display:none;">
+        <div class="result">
+          <h3 class="mb-4">Resultado da Análise</h3>
+          <div class="alert alert-success">
+            <p><strong>Razão Social:</strong> <span id="resRazao"></span></p>
+            <p><strong>Nome Fantasia:</strong> <span id="resNomeFantasia"></span></p>
+            <p><strong>CNPJ/CPF:</strong> <span id="resDoc"></span></p>
+            <p><strong>CNAEs:</strong> <span id="resCNAEs"></span></p>
+            <p><strong>Nível de Risco:</strong> <span id="resRisco"></span></p>
+            <p><strong>Orientações:</strong> <span id="resOrientacoes"></span></p>
+          </div>
+          <div class="text-center mt-4">
+            <button class="btn btn-outline-primary me-2" onclick="voltarPasso(1)">
+              <i class="fas fa-edit me-2"></i>Editar Dados
+            </button>
+            <button class="btn btn-info me-2" onclick="exportPDF()">
+              <i class="fas fa-file-pdf me-2"></i>Exportar PDF
+            </button>
+            <button class="btn btn-success" onclick="reiniciarFluxo()">
+              <i class="fas fa-redo me-2"></i>Novo Processo
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer id="contato" class="py-4">
+    <div class="container text-center">
+      <p>&copy; 2025 VISA Digital. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+  <script type="module">
+    let cnaesData = [];
+    let cnaesIBGE = [];
+    let jucemgMunicipios = [];
+    let municipiosPact = {};
+    const cnaesSelecionados = new Set();
+
+    // URLs dos dados
+    const CNAE_JSON_URL = "https://raw.githubusercontent.com/leonardomverona/risco/refs/heads/main/cnae.json";
+    const JUCEG_JSON_URL = "https://raw.githubusercontent.com/leonardomverona/risco/refs/heads/main/jucemgMunicipios.json";
+    const PACT_CSV_URL = "https://raw.githubusercontent.com/leonardomverona/risco/refs/heads/main/municipiopact.csv";
+
+    window.atualizarDocLabel = function() {
+      const tipo = $('input[name="tipoCadastro"]:checked').val();
+      const docInput = $('#doc');
+      if (tipo === 'PJ') {
+        $('#docLabel').text('CNPJ:');
+        docInput.unmask().mask('00.000.000/0000-00');
+        docInput.attr('placeholder', '00.000.000/0000-00');
+      } else {
+        $('#docLabel').text('CPF:');
+        docInput.unmask().mask('000.000.000-00');
+        docInput.attr('placeholder', '000.000.000-00');
+      }
+    };
+
+    function formatarDescricao(str) {
+      const exceptions = ["de", "da", "do", "das", "dos", "e", "para", "com", "a", "as", "em", "o", "os", "por"];
+      return str.toLowerCase().split(' ').map((word, index) => {
+        if (index === 0) return word.charAt(0).toUpperCase() + word.slice(1);
+        return exceptions.includes(word) ? word : word.charAt(0).toUpperCase() + word.slice(1);
+      }).join(' ');
+    }
+
+    function loadCSVAsync(url) {
+      return new Promise((resolve, reject) => {
+        Papa.parse(url, {
+          download: true,
+          header: true,
+          skipEmptyLines: true,
+          complete: (results) => results.errors.length ? reject(results.errors) : resolve(results.data),
+          error: reject
+        });
+      });
+    }
+
+    async function loadCollections() {
+      try {
+        const cnaeResponse = await fetch(CNAE_JSON_URL);
+        cnaesData = await cnaeResponse.json();
+        cnaesData = cnaesData.map(cnae => ({
+          ...cnae,
+          visa: (cnae.Perguntas?.length > 0) || cnae.RiscoFixo !== "",
+          code: cnae.CNAE,
+          description: cnae["Descrição"],
+          riskFixed: cnae.RiscoFixo,
+          Perguntas: cnae.Perguntas
+        }));
+
+        const jucemgResponse = await fetch(JUCEG_JSON_URL);
+        const jucemgData = await jucemgResponse.json();
+        jucemgMunicipios = jucemgData.cidades;
+
+        const pactData = await loadCSVAsync(PACT_CSV_URL);
+        pactData.forEach(row => municipiosPact[row.nome] = row.pact);
+
+        await loadIBGECNAes();
+        popularMunicipios();
+      } catch (err) {
+        console.error('Erro ao carregar dados:', err);
+        alert('Erro ao carregar dados. Verifique o console.');
+      }
+    }
+
+    async function loadIBGECNAes() {
+      try {
+        const ibgeResponse = await fetch('https://servicodados.ibge.gov.br/api/v2/cnae/subclasses');
+        const dataApi = await ibgeResponse.json();
+        cnaesIBGE = dataApi.map(item => ({
+          code: item.id.replace(/\D/g, '').replace(/(\d{4})(\d{1})(\d{2})/, "$1-$2/$3"),
+          description: formatarDescricao(item.descricao),
+          Perguntas: [],
+          riskFixed: "",
+          visa: false
+        }));
+
+        const combined = [...cnaesData, ...cnaesIBGE];
+        const seen = new Set();
+        window.combinedCnaes = combined.filter(cnae => {
+          const key = cnae.code.toUpperCase();
+          if (seen.has(key)) return false;
+          seen.add(key);
+          return true;
+        }).sort((a, b) => a.description.localeCompare(b.description));
+      } catch (err) {
+        console.error('Erro ao carregar CNAEs do IBGE:', err);
+      }
+    }
+
+    function popularMunicipios() {
+      const select = $('#municipio');
+      select.empty().append('<option value="">-- Selecione --</option>');
+      Object.keys(municipiosPact)
+        .sort((a, b) => a.localeCompare(b, 'pt-BR', { sensitivity: 'base' }))
+        .forEach(mun => {
+          select.append(new Option(mun, mun));
+        });
+      select.select2({ width: '100%' });
+    }
+
+    $(document).ready(() => atualizarDocLabel());
+    loadCollections();
+
+    let cnaeCount = 0;
+    window.adicionarCNAE = function() {
+      if (!window.combinedCnaes) {
+        alert("Dados de CNAE ainda não carregados.");
+        return;
+      }
+      cnaeCount++;
+      const novoCNAE = `
+        <div class="cnae-card" data-uniqueid="${cnaeCount}">
+          <div class="row g-3 align-items-center">
+            <div class="col-md-9">
+              <select class="form-select cnae-select" data-uniqueid="${cnaeCount}" onchange="verificarCNAE(this)">
+                <option value=""></option>
+                ${window.combinedCnaes.map(cnae => `
+                  <option value="${cnae.code}" ${cnaesSelecionados.has(cnae.code) ? 'disabled' : ''}>
+                    ${cnae.code} - ${cnae.description}
+                  </option>
+                `).join('')}
+              </select>
+            </div>
+            <div class="col-md-3">
+              <button type="button" class="btn btn-danger w-100" onclick="removerCNAE(this)">
+                <i class="fas fa-trash"></i>
+              </button>
+            </div>
+          </div>
+          <div class="questions-container" style="display:none; margin-top:10px;"></div>
+        </div>
+      `;
+      $('#cnaesContainer').append(novoCNAE);
+      $('.cnae-select:last').select2({ placeholder: 'Selecione um CNAE', width: '100%' });
+    };
+
+    window.removerCNAE = function(botao) {
+      const card = $(botao).closest('.cnae-card');
+      const codigo = card.find('select').val();
+      cnaesSelecionados.delete(codigo);
+      $('.cnae-select option[value="'+codigo+'"]').prop('disabled', false);
+      card.remove();
+    };
+
+    window.verificarCNAE = function(selectElem) {
+      const uniqueId = $(selectElem).data('uniqueid');
+      const codigoSelecionado = $(selectElem).val();
+      if (!codigoSelecionado) return;
+      cnaesSelecionados.add(codigoSelecionado);
+      $('.cnae-select').not(selectElem).each(function() {
+        $(this).find(`option[value="${codigoSelecionado}"]`).prop('disabled', true);
+      });
+      const cnae = window.combinedCnaes.find(item => item.code === codigoSelecionado);
+      const card = $(selectElem).closest('.cnae-card');
+      const questionsContainer = card.find('.questions-container');
+      if (!cnae?.Perguntas?.length) {
+        questionsContainer.hide().empty();
+        return;
+      }
+      let html = '';
+      cnae.Perguntas.forEach((q, i) => {
+        const display = i === 0 ? 'block' : 'none';
+        let onchangeAttr = '';
+        if (i === 0 && cnae.Perguntas.length > 1) {
+          onchangeAttr = ` onchange="verificarRespostaEncadeada(this, '${uniqueId}', ${i})"`;
+        }
+        html += `
+          <div class="question-block" id="question_${uniqueId}_${i}" style="display:${display}; margin-bottom:10px;">
+            <p class="mb-1 fw-bold">${q.text}</p>
+            ${q.options.map(opt => `
+              <label class="form-check-label me-3">
+                <input type="radio" name="q_${uniqueId}_${i}" value="${opt.value}" ${onchangeAttr}>
+                ${opt.value}
+              </label>
+            `).join('')}
+          </div>
+        `;
+      });
+      questionsContainer.html(html).show();
+    };
+
+    window.verificarRespostaEncadeada = function(radioElem, uniqueId, questionIndex) {
+      if (questionIndex === 0 && $(radioElem).val() === 'NÃO') {
+        $(`#question_${uniqueId}_1`).fadeIn(300);
+      } else {
+        $(`#question_${uniqueId}_1`).fadeOut(300).find('input').prop('checked', false);
+      }
+    };
+
+    window.calcularRisco = function() {
+      const doc = $('#doc').val().trim();
+      const razao = $('#razao').val().trim();
+      const nomeFantasia = $('#nome_fantasia').val().trim();
+      const municipio = $('#municipio').val();
+      if (!doc || !razao || !nomeFantasia || !municipio) {
+        alert('Preencha todos os campos obrigatórios.');
+        return;
+      }
+      if ($('.cnae-card').length === 0) {
+        alert('Adicione ao menos um CNAE.');
+        return;
+      }
+      let overallRisk = 0;
+      let cnaesListHTML = "<ul class='list-unstyled'>";
+      const allCnaes = window.combinedCnaes || [];
+      $('.cnae-card').each(function() {
+        const card = $(this);
+        const uniqueId = card.data('uniqueid');
+        const codigo = card.find('.cnae-select').val();
+        const cnae = allCnaes.find(item => item.code === codigo);
+        if (!cnae) return;
+        cnaesListHTML += `<li>${cnae.code} - ${cnae.description}</li>`;
+        if (cnae.visa) {
+          let riscoCNAE = cnae.riskFixed ? parseInt(cnae.riskFixed) : 1;
+          if (cnae.Perguntas?.length > 0) {
+            cnae.Perguntas.forEach((pergunta, index) => {
+              const resposta = card.find(`input[name="q_${uniqueId}_${index}"]:checked`).val();
+              const opcao = pergunta.options.find(opt => opt.value === resposta);
+              if (opcao?.risk !== undefined) {
+                riscoCNAE = Math.max(riscoCNAE, opcao.risk);
+              }
+            });
+          }
+          overallRisk = Math.max(overallRisk, riscoCNAE);
+        }
+      });
+      cnaesListHTML += "</ul>";
+      let orientacoes = "";
+      if (overallRisk === 0) {
+        orientacoes = "A(s) atividade(s) econômica(s) do estabelecimento informado não é (são) sujeita(s) ao controle sanitário por não representar risco ou agravo à saúde.";
+      } else {
+        const munFormulario = municipio.trim().toLowerCase();
+        const encontrado = jucemgMunicipios.some(m => m.trim().toLowerCase() === munFormulario);
+        switch(overallRisk) {
+          case 1:
+            orientacoes = "A(s) atividade(s) econômica(s) do estabelecimento informado é (são) sujeita(s) ao controle sanitário por representar(em) algum risco à saúde individual ou coletiva, mas são dispensadas de Alvará Sanitário para funcionamento. O estabelecimento está sujeito à fiscalização e pode ser autuado sempre que houver denúncias.";
+            break;
+          case 2:
+            orientacoes = encontrado 
+              ? `O estabelecimento depende de autorização da Vigilância Sanitária para o início das atividades, com possibilidade de obtenção do alvará mediante procedimentos simplificados. Consulte o portal da <a href="https://portalservicos.jucemg.mg.gov.br/" target="_blank">REDESIM</a>.` 
+              : `Procure a Vigilância Sanitária de ${municipio}.`;
+            break;
+          case 3:
+            orientacoes = municipiosPact[municipio] === 'C' 
+              ? `O estabelecimento depende de autorização da Vigilância Sanitária para o início das atividades. Procure a Vigilância Sanitária de ${municipio}.` 
+              : `Para atividades de Alto Risco, é necessário aprovação de projeto arquitetônico e inspeção prévia. Acesse o <a href="https://visadigital.saude.mg.gov.br/" target="_blank">VISA Digital</a> para iniciar o processo.`;
+            break;
+        }
+      }
+      $('#resRazao').text(razao);
+      $('#resNomeFantasia').text(nomeFantasia);
+      $('#resDoc').text(doc);
+      $('#resCNAEs').html(cnaesListHTML);
+      $('#resRisco').text(overallRisk);
+      $('#resOrientacoes').html(orientacoes);
+    };
+
+    window.voltarPasso = function(passo) {
+      if (passo === 1) {
+        $('#step2').hide();
+        $('#step1').show();
+        updateProgress(20);
+      }
+    };
+
+    window.reiniciarFluxo = function() {
+      $('#riskForm')[0].reset();
+      $('#municipio').val('').trigger('change');
+      $('#cnaesContainer').empty();
+      cnaesSelecionados.clear();
+      $('#step2').hide();
+      $('#step1').show();
+      updateProgress(20);
+    };
+
+    window.nextStep = function(passo) {
+      if (passo === 2) {
+        $('#step1').hide();
+        $('#step2').show();
+      }
+    };
+
+    // Função para exportar PDF com padrão light (removendo temporariamente o dark mode)
+    function exportPDF() {
+      const wasDark = document.body.classList.contains("dark-mode");
+      if (wasDark) {
+        document.body.classList.remove("dark-mode");
+      }
+      const element = document.querySelector(".result");
+      const opt = {
+        margin: 0.5,
+        filename: 'resultado.pdf',
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2 },
+        jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+      };
+      html2pdf().set(opt).from(element).save().finally(() => {
+        if (wasDark) {
+          document.body.classList.add("dark-mode");
+        }
+      });
+    }
+    // Tornar a função exportPDF acessível globalmente
+    window.exportPDF = exportPDF;
+
+    window.toggleDarkMode = function() {
+      document.body.classList.toggle('dark-mode');
+      const darkModeIcon = document.getElementById('darkModeIcon');
+      if (document.body.classList.contains('dark-mode')) {
+        darkModeIcon.classList.remove('fa-moon');
+        darkModeIcon.classList.add('fa-sun');
+      } else {
+        darkModeIcon.classList.remove('fa-sun');
+        darkModeIcon.classList.add('fa-moon');
+      }
+    }
+  </script>
+</body>
+</html>
