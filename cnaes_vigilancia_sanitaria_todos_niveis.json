@@ -1,0 +1,182 @@
+[
+  {
+    "Código CNAE": "1081-3/01",
+    "Denominação": "Beneficiamento de café",
+    "Notas Explicativas": "Compreende: o beneficiamento do café em coco para café em grão, não associado ao cultivo do café. Não compreende: beneficiamento no estabelecimento agrícola, fabricação de café torrado ou solúvel."
+  },
+  {
+    "Código CNAE": "1099-6/04",
+    "Denominação": "Fabricação de gelo comum",
+    "Notas Explicativas": "Compreende: fabricação de gelo comum para qualquer fim. Não compreende: fabricação de gelo seco."
+  },
+  {
+    "Código CNAE": "4621-4/00",
+    "Denominação": "Comércio atacadista de café em grão",
+    "Notas Explicativas": "Compreende: comércio atacadista de café em grão, em coco ou verde."
+  },
+  {
+    "Código CNAE": "4631-1/00",
+    "Denominação": "Comércio atacadista de leite e laticínios",
+    "Notas Explicativas": "Compreende: leite e derivados, como manteiga, iogurte, queijos, requeijão e margarinas."
+  },
+  {
+    "Código CNAE": "4632-0/01",
+    "Denominação": "Comércio atacadista de cereais e leguminosas beneficiados",
+    "Notas Explicativas": "Compreende: feijão, arroz, milho, trigo, centeio, etc."
+  },
+  {
+    "Código CNAE": "4632-0/02",
+    "Denominação": "Comércio atacadista de farinhas, amidos e féculas",
+    "Notas Explicativas": "Compreende: comércio de farinhas, amidos e féculas."
+  },
+  {
+    "Código CNAE": "4634-6/01",
+    "Denominação": "Comércio atacadista de carnes bovinas e suínas e derivados",
+    "Notas Explicativas": "Compreende: carne fresca, frigorificada ou congelada de bovinos e suínos, e preparados."
+  },
+  {
+    "Código CNAE": "4634-6/02",
+    "Denominação": "Comércio atacadista de aves abatidas e derivados",
+    "Notas Explicativas": "Compreende: aves frescas, frigorificadas e congeladas."
+  },
+  {
+    "Código CNAE": "4634-6/03",
+    "Denominação": "Comércio atacadista de pescados e frutos do mar",
+    "Notas Explicativas": "Compreende: peixes e frutos do mar frescos, frigorificados e congelados."
+  },
+  {
+    "Código CNAE": "4634-6/99",
+    "Denominação": "Comércio atacadista de carnes e derivados de outros animais",
+    "Notas Explicativas": "Compreende: carnes e derivados de caprinos, ovinos, equídeos e outros. Não compreende: bovinos, suínos, aves e pescados."
+  },
+  {
+    "Código CNAE": "4637-1/01",
+    "Denominação": "Comércio atacadista de café torrado, moído e solúvel",
+    "Notas Explicativas": "Compreende: todas as formas do café industrializado."
+  },
+  {
+    "Código CNAE": "4637-1/02",
+    "Denominação": "Comércio atacadista de açúcar",
+    "Notas Explicativas": "Compreende: açúcares."
+  },
+  {
+    "Código CNAE": "4637-1/03",
+    "Denominação": "Comércio atacadista de óleos e gorduras",
+    "Notas Explicativas": "Compreende: óleos e azeites refinados e gorduras animais/vegetais. Não compreende: adoçantes."
+  },
+  {
+    "Código CNAE": "4637-1/05",
+    "Denominação": "Comércio atacadista de massas alimentícias",
+    "Notas Explicativas": "Compreende: massas em geral. Não compreende: pães, bolos, biscoitos."
+  },
+  {
+    "Código CNAE": "4637-1/06",
+    "Denominação": "Comércio atacadista de sorvetes",
+    "Notas Explicativas": "Compreende: sorvetes, picolés, tortas geladas e similares."
+  },
+  {
+    "Código CNAE": "4637-1/99",
+    "Denominação": "Comércio atacadista especializado em outros produtos alimentícios",
+    "Notas Explicativas": "Compreende: chás, mel, sucos, conservas, congelados, frituras prontas, alimentos para microondas, suplementos alimentares. Não compreende: alimentos para animais."
+  },
+  {
+    "Código CNAE": "0892-4/03",
+    "Denominação": "Refino e outros tratamentos do sal",
+    "Notas Explicativas": "Moagem, purificação, refino e outros tratamentos do sal. Não inclui extração nem produção por evaporação."
+  },
+  {
+    "Código CNAE": "1032-5/01",
+    "Denominação": "Fabricação de conservas de palmito",
+    "Notas Explicativas": "Fabricação de conservas de palmito."
+  },
+  {
+    "Código CNAE": "1041-4/00",
+    "Denominação": "Fabricação de óleos vegetais em bruto, exceto óleo de milho",
+    "Notas Explicativas": "Óleos vegetais em bruto e subprodutos como tortas e farelos. Não inclui óleos refinados."
+  },
+  {
+    "Código CNAE": "1042-2/00",
+    "Denominação": "Fabricação de óleos vegetais refinados, exceto óleo de milho",
+    "Notas Explicativas": "Refino de óleos vegetais e ceras vegetais. Não inclui óleos brutos ou essenciais."
+  },
+  {
+    "Código CNAE": "1053-8/00",
+    "Denominação": "Fabricação de sorvetes e outros gelados comestíveis",
+    "Notas Explicativas": "Sorvetes, picolés, bolos gelados e bases para sorvetes. Não inclui pós."
+  },
+  {
+    "Código CNAE": "1062-7/00",
+    "Denominação": "Moagem de trigo e fabricação de derivados",
+    "Notas Explicativas": "Farinha de trigo, sêmolas e massas preparadas. Não inclui féculas e amidos."
+  },
+  {
+    "Código CNAE": "1065-1/02",
+    "Denominação": "Fabricação de óleo de milho em bruto",
+    "Notas Explicativas": "Fabricação de óleo de milho em bruto. Não inclui refinado ou fubá."
+  },
+  {
+    "Código CNAE": "1065-1/03",
+    "Denominação": "Fabricação de óleo de milho refinado",
+    "Notas Explicativas": "Fabricação de óleo de milho refinado. Não inclui bruto."
+  },
+  {
+    "Código CNAE": "1072-4/01",
+    "Denominação": "Fabricação de açúcar de cana refinado",
+    "Notas Explicativas": "Açúcar refinado, triturado e glicose de cana. Não inclui estévia ou adoçantes artificiais."
+  },
+  {
+    "Código CNAE": "1072-4/02",
+    "Denominação": "Fabricação de açúcar de cereais (dextrose) e de beterraba",
+    "Notas Explicativas": "Açúcar refinado de cereais e beterraba. Não inclui glicose de amido ou estévia."
+  },
+  {
+    "Código CNAE": "1099-6/02",
+    "Denominação": "Fabricação de pós-alimentícios",
+    "Notas Explicativas": "Pós para pudins, gelatinas, etc. Não inclui pós para bebidas."
+  },
+  {
+    "Código CNAE": "1099-6/03",
+    "Denominação": "Fabricação de fermentos e leveduras",
+    "Notas Explicativas": "Fabricação de fermentos e leveduras."
+  },
+  {
+    "Código CNAE": "1099-6/06",
+    "Denominação": "Fabricação de adoçantes naturais e artificiais",
+    "Notas Explicativas": "Estévia e adoçantes artificiais."
+  },
+  {
+    "Código CNAE": "1099-6/07",
+    "Denominação": "Fabricação de alimentos dietéticos e complementos alimentares",
+    "Notas Explicativas": "Alimentos dietéticos e complementares."
+  },
+  {
+    "Código CNAE": "1121-6/00",
+    "Denominação": "Fabricação de águas envasadas",
+    "Notas Explicativas": "Engarrafamento de água potável. Não inclui água com aromatizantes."
+  },
+  {
+    "Código CNAE": "1122-4/04",
+    "Denominação": "Fabricação de bebidas isotônicas",
+    "Notas Explicativas": "Produção de bebidas isotônicas."
+  },
+  {
+    "Código CNAE": "1742-7/01",
+    "Denominação": "Fabricação de fraldas descartáveis",
+    "Notas Explicativas": "Fraldas descartáveis."
+  },
+  {
+    "Código CNAE": "1742-7/02",
+    "Denominação": "Fabricação de absorventes higiênicos",
+    "Notas Explicativas": "Absorventes higiênicos."
+  },
+  {
+    "Código CNAE": "2052-5/00",
+    "Denominação": "Fabricação de desinfestantes domissanitários",
+    "Notas Explicativas": "Produtos para controle de pragas urbanas. Não inclui anti-sépticos terapêuticos."
+  },
+  {
+    "Código CNAE": "2061-4/00",
+    "Denominação": "Fabricação de sabões e detergentes sintéticos",
+    "Notas Explicativas": "Sabões e detergentes em diversas formas. Não inclui sabões medicinais."
+  }
+]
