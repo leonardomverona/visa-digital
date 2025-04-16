@@ -1,0 +1,124 @@
+{
+  "dispensados_projeto_arquitetonico": [
+    {
+      "cnae": "1061-9/01",
+      "descricao": "Beneficiamento de arroz"
+    },
+    {
+      "cnae": "1731-1/00",
+      "descricao": "Fabricação de embalagens de papel"
+    },
+    {
+      "cnae": "1732-0/00",
+      "descricao": "Fabricação de embalagens de cartolina e papel-cartão"
+    },
+    {
+      "cnae": "1733-8/00",
+      "descricao": "Fabricação de chapas e de embalagens de papelão ondulado"
+    },
+    {
+      "cnae": "2312-5/00",
+      "descricao": "Fabricação de embalagens de vidro"
+    },
+    {
+      "cnae": "2591-8/00",
+      "descricao": "Fabricação de embalagens metálicas"
+    },
+    {
+      "cnae": "3312-1/03",
+      "descricao": "Manutenção e reparação de aparelhos eletromédicos e eletroterapêuticos e equipamentos de irradiação"
+    },
+    {
+      "cnae": "3600-6/02",
+      "descricao": "Distribuição de água por caminhões"
+    },
+    {
+      "cnae": "4722-9/01",
+      "descricao": "Comércio varejista de carnes - açougues"
+    },
+    {
+      "cnae": "4773-3/00",
+      "descricao": "Comércio varejista de artigos médicos e ortopédicos"
+    },
+    {
+      "cnae": "4911-6/00",
+      "descricao": "Transporte ferroviário de carga"
+    },
+    {
+      "cnae": "4930-2/03",
+      "descricao": "Transporte rodoviário de produtos perigosos"
+    },
+    {
+      "cnae": "5021-0/01",
+      "descricao": "Transporte por navegação interior de carga, municipal, exceto travessia"
+    },
+    {
+      "cnae": "5021-0/02",
+      "descricao": "Transporte por navegação interior de carga, intermunicipal, interestadual e internacional, exceto travessia"
+    },
+    {
+      "cnae": "5120-0/00",
+      "descricao": "Transporte aéreo de carga"
+    },
+    {
+      "cnae": "5211-7/01",
+      "descricao": "Armazéns gerais - emissão de warrant, caso o armazenamento seja apenas de alimentos"
+    },
+    {
+      "cnae": "5211-7/99",
+      "descricao": "Depósitos de mercadorias para terceiros, exceto armazéns gerais e guarda-móveis, caso o armazenamento seja apenas de alimentos"
+    },
+    {
+      "cnae": "5590-6/99",
+      "descricao": "Outros alojamentos não especificados anteriormente"
+    },
+    {
+      "cnae": "6202-3/00",
+      "descricao": "Desenvolvimento e licenciamento de programas de computador customizáveis"
+    },
+    {
+      "cnae": "6203-1/00",
+      "descricao": "Desenvolvimento e licenciamento de programas de computador não-customizáveis"
+    },
+    {
+      "cnae": "7500-1/00",
+      "descricao": "Atividades veterinárias, exceto os estabelecimentos que possuam equipamentos emissores de radiação ionizante, ficando a avaliação de área física restrita ao setor de radiologia"
+    },
+    {
+      "cnae": "7729-2/03",
+      "descricao": "Aluguel de material médico"
+    },
+    {
+      "cnae": "7739-0/02",
+      "descricao": "Aluguel de equipamentos científicos, médicos e hospitalares, sem operador"
+    },
+    {
+      "cnae": "8621-6/01",
+      "descricao": "UTI móvel"
+    },
+    {
+      "cnae": "8621-6/02",
+      "descricao": "Serviços móveis de atendimento a urgências, exceto por UTI móvel"
+    },
+    {
+      "cnae": "8690-9/99",
+      "descricao": "Outras atividades de atenção à saúde humana não especificadas anteriormente"
+    },
+    {
+      "cnae": "8720-4/99",
+      "descricao": "Atividades de assistência psicossocial e à saúde a portadores de distúrbios psíquicos, deficiência mental e dependência química e grupos similares não especificados anteriormente"
+    },
+    {
+      "cnae": "8730-1/01",
+      "descricao": "Orfanatos"
+    },
+    {
+      "cnae": "8800-6/00",
+      "descricao": "Serviços de assistência social sem alojamento"
+    },
+    {
+      "cnae": "9602-5/02",
+      "descricao": "Atividades de estética e outros serviços de cuidados com a beleza, caso o estabelecimento realize somente atividade de depilação a laser"
+    }
+  ]
+}
