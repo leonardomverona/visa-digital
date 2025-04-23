@@ -1,0 +1,7547 @@
+[
+  {
+    "cnae": "0892-4/03",
+    "descricao": "Refino e outros tratamentos do sal",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1061-9/02",
+    "descricao": "Fabricação de produtos do arroz",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "A produção é artesanal?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      },
+      {
+        "id": "q1",
+        "text": "A produção é realizada por métodos artesanais?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1032-5/01",
+    "descricao": "Fabricação de conservas de palmito",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1063-5/00",
+    "descricao": "Fabricação de farinha de mandioca e derivados",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "A produção é artesanal?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      },
+      {
+        "id": "q1",
+        "text": "A produção é realizada por métodos artesanais?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1064-3/00",
+    "descricao": "Fabricação de farinha de milho e derivados, exceto óleos de milho",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "A produção é artesanal?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      },
+      {
+        "id": "q1",
+        "text": "A produção é realizada por métodos artesanais?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1041-4/00",
+    "descricao": "Fabricação de óleos vegetais em bruto, exceto óleo de milho",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1042-2/00",
+    "descricao": "Fabricação de óleos vegetais refinados, exceto óleo de milho",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1065-1/01",
+    "descricao": "Fabricação de amidos e féculas de vegetais",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "A produção é artesanal?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      },
+      {
+        "id": "q1",
+        "text": "A produção é realizada por métodos artesanais?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1053-8/00",
+    "descricao": "Fabricação de sorvetes e outros gelados comestíveis",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "O estabelecimento é micro, pequena ou média empresa?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1069-4/00",
+    "descricao": "Moagem e fabricação de produtos de origem vegetal não especificados anteriormente",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "A produção é artesanal?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      },
+      {
+        "id": "q1",
+        "text": "A produção é realizada por métodos artesanais?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1071-6/00",
+    "descricao": "Fabricação de açúcar em bruto",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "A produção é artesanal?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      },
+      {
+        "id": "q1",
+        "text": "A produção é realizada por métodos artesanais?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1062-7/00",
+    "descricao": "Moagem de trigo e fabricação de derivados",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1081-3/02",
+    "descricao": "Torrefação e moagem de café",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "A produção é artesanal?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      },
+      {
+        "id": "q1",
+        "text": "A produção é realizada por métodos artesanais?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1082-1/00",
+    "descricao": "Fabricação de produtos à Ise de café",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "A produção é artesanal?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      },
+      {
+        "id": "q1",
+        "text": "A produção é realizada por métodos artesanais?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1091-1/01",
+    "descricao": "Fabricação de produtos de panificação industrial",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "A produção é artesanal?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      },
+      {
+        "id": "q1",
+        "text": "A produção é realizada por métodos artesanais?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1065-1/02",
+    "descricao": "Fabricação de óleo de milho em bruto",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1065-1/03",
+    "descricao": "Fabricação de óleo de milho refinado",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1092-9/00",
+    "descricao": "Fabricação de biscoitos e bolachas",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "A produção é artesanal?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      },
+      {
+        "id": "q1",
+        "text": "A produção é realizada por métodos artesanais?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1093-7/01",
+    "descricao": "Fabricação de produtos derivados do cacau e de chocolates",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "A produção é artesanal?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      },
+      {
+        "id": "q1",
+        "text": "A produção é realizada por métodos artesanais?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1072-4/01",
+    "descricao": "Fabricação de açúcar de cana refinado",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1072-4/02",
+    "descricao": "Fabricação de açúcar de cereais (dextrose) e de beterraI",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1081-3/01",
+    "descricao": "Beneficiamento de café",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1093-7/02",
+    "descricao": "Fabricação de frutas cristalizadas, Ilas e semelhantes",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "A produção é artesanal?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      },
+      {
+        "id": "q1",
+        "text": "A produção é realizada por métodos artesanais?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1094-5/00",
+    "descricao": "Fabricação de massas alimentícias",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "A produção é artesanal?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      },
+      {
+        "id": "q1",
+        "text": "A produção é realizada por métodos artesanais?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1095-3/00",
+    "descricao": "Fabricação de especiarias, molhos, temperos e condimentos",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "A produção é artesanal?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      },
+      {
+        "id": "q1",
+        "text": "A produção é realizada por métodos artesanais?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1096-1/00",
+    "descricao": "Fabricação de alimentos e pratos prontos",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "A produção é artesanal?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      },
+      {
+        "id": "q1",
+        "text": "A produção é realizada por métodos artesanais?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1099-6/05",
+    "descricao": "Fabricação de produtos para infusão (chá, mate, etc.)",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "A produção é artesanal?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      },
+      {
+        "id": "q1",
+        "text": "A produção é realizada por métodos artesanais?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "2019-3/99",
+    "descricao": "Fabricação de outros produtos químicos inorgânicos não especificados anteriormente",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "A",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há fabricação de produtos químicos orgânicos e/ou inorgânicos empregados como aditivos para alimento, saneantes ou insumos para fabricação de saneantes?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "2029-1/00",
+    "descricao": "Fabricação de produtos químicos orgânicos não especificados anteriormente",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "A",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há fabricação de produtos químicos orgânicos e/ou inorgânicos empregados como aditivos para alimento, saneantes ou insumos para fabricação de saneantes?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "2071-1/00",
+    "descricao": "Fabricação de tintas, vernizes, esmaltes e lacas",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "A",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "O resultado do exercício da atividade é utilizado para o revestimento interno de embalagens que entram em contato com alimentos; e sejam tintas, vernizes, esmaltes, lacas, pigmentos e/ou corantes que utilizam precursores no processo de síntese química nestes compostos?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "2091-6/00",
+    "descricao": "Fabricação de adesivos e selantes",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "A",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "O resultado do exercício da atividade é utilizado para o revestimento interno de embalagens que entram em contato com alimentos; e sejam, adesivos, colas, decalques e selantes para uso industrial e doméstico de origem animal, vegetal e sintética que utilizam precursores no processo de síntese química destes compostos?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1099-6/02",
+    "descricao": "Fabricação de pós-alimentícios",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "O estabelecimento é micro, pequena ou média empresa?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1099-6/03",
+    "descricao": "Fabricação de fermentos e leveduras",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "O estabelecimento é micro, pequena ou média empresa?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1099-6/04",
+    "descricao": "Fabricação de gelo comum",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "2093-2/00",
+    "descricao": "Fabricação de aditivos de uso industrial",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "A",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há fabricação de aditivo alimentar, insumos farmacêuticos, insumos para cosméticos, perfumes, produtos de higiene ou saneantes?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1099-6/06",
+    "descricao": "Fabricação de adoçantes naturais e artificiais",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "O estabelecimento é micro, pequena ou média empresa?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1099-6/07",
+    "descricao": "Fabricação de alimentos dietéticos e complementos alimentares",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "O estabelecimento é micro, pequena ou média empresa?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "2219-6/00",
+    "descricao": "Fabricação de artefatos de borracha não especificados anteriormente",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "A",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há fabricação de chupetas, bico de mamadeiras, produtos para saúde ou produtos de higiene?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1121-6/00",
+    "descricao": "Fabricação de águas envasadas",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1122-4/04",
+    "descricao": "Fabricação de bebidas isotônicas",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "2829-1/99",
+    "descricao": "Fabricação de outras máquinas e equipamentos de uso geral não especificados anteriormente, peças e acessórios",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "A",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há fabricação de produtos para saúde?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "3092-0/00",
+    "descricao": "Fabricação de bicicletas e triciclos não motorizados, peças e acessórios",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há fabricação de produtos para saúde?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "3250-7/07",
+    "descricao": "Fabricação de artigos ópticos",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há fabricação de produtos para saúde?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "3292-2/02",
+    "descricao": "Fabricação de equipamentos e acessórios para segurança pessoal e profissional",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há fabricação de produtos para saúde?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1742-7/01",
+    "descricao": "Fabricação de fraldas descartáveis",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1742-7/02",
+    "descricao": "Fabricação de absorventes higiênicos",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1032-5/99",
+    "descricao": "Fabricação de conservas de legumes e outros vegetais, exceto palmito",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "A produção é artesanal e diferente de conservas?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "3291-4/00",
+    "descricao": "Fabricação de escovas, pincéis e vassouras",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há fabricação de produtos de higiene?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "3312-1/03",
+    "descricao": "Manutenção e reparação de aparelhos eletromédicos e eletroterapêuticos e equipamentos de irradiação",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Manutenção e reparação de aparelhos eletromédicos e eletroterapêuticos e equipamentos de irradiação",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há comercialização de produtos para saúde de uso profissional?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 2
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "2052-5/00",
+    "descricao": "Fabricação de desinfestantes domissanitários",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "2061-4/00",
+    "descricao": "Fabricação de sabões e detergentes sintéticos",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "2062-2/00",
+    "descricao": "Fabricação de produtos de limpeza e polimento",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "2063-1/00",
+    "descricao": "Fabricação de cosméticos, produtos de perfumaria e de higiene pessoal",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4773-3/00",
+    "descricao": "Comércio varejista de artigos médicos e ortopédicos",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Comércio varejista de artigos médicos e ortopédicos",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há comercialização de produtos para saúde de uso profissional?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 2
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4635-4/03",
+    "descricao": "Comércio atacadista de bebidas com atividade de fracionamento e acondicionamento associada",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há comércio atacadista de água mineral com atividade de engarrafamento?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4722-9/01",
+    "descricao": "Comércio varejista de carnes - açougues",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Comércio varejista de carnes - açougues",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há atividade de transformação artesanal e/ou autosserviço?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 2
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "2110-6/00",
+    "descricao": "Fabricação de produtos farmoquímicos",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "2121-1/01",
+    "descricao": "Fabricação de medicamentos alopáticos para uso humano",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "2121-1/02",
+    "descricao": "Fabricação de medicamentos homeopáticos para uso humano",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "2121-1/03",
+    "descricao": "Fabricação de medicamentos fitoterápicos para uso humano",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "2123-8/00",
+    "descricao": "Fabricação de preparações farmacêuticas",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4729-6/02",
+    "descricao": "Comércio varejista de mercadorias em lojas de conveniência",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há comercialização de medicamentos (drugstore)?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4789-0/99",
+    "descricao": "Comércio varejista de outros produtos não especificados anteriormente",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há comercialização de cosméticos, saneantes, produtos para saúde ou alimentos?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4911-6/00",
+    "descricao": "Transporte ferroviário de carga",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Transporte ferroviário de carga",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há transporte de produtos sujeitos ao controle sanitário?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": null
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "Há transporte de medicamentos,  gases medicinais, produtos de higiene,  perfumes, cosméticos, saneantes, insumos  para fabricação dos mesmos, produtos para saúde ou material biológico humano?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 2
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4930-2/01",
+    "descricao": "Transporte rodoviário de carga, exceto produtos perigosos e mudanças, municipal",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há transporte de produtos sujeitos ao controle sanitário?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": null
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "Há transporte de medicamentos,  gases medicinais, produtos de higiene,  perfumes, cosméticos, saneantes, insumos  para fabricação dos mesmos, produtos para saúde ou material biológico humano?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 2
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "2660-4/00",
+    "descricao": "Fabricação de aparelhos eletromédicos e eletroterapêuticos e equipamentos de irradiação",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4930-2/02",
+    "descricao": "Transporte rodoviário de carga, exceto produtos perigosos e mudanças, intermunicipal, interestadual e internacional",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há transporte de produtos sujeitos ao controle sanitário?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": null
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "Há transporte de medicamentos,  gases medicinais, produtos de higiene,  perfumes, cosméticos, saneantes, insumos  para fabricação dos mesmos, produtos para saúde ou material biológico humano?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 2
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4930-2/03",
+    "descricao": "Transporte rodoviário de produtos perigosos",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Transporte rodoviário de produtos perigosos",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há transporte de produtos sujeitos ao controle sanitário?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": null
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "Há transporte de medicamentos, gases medicinais, produtos de higiene,  perfumes, cosméticos, saneantes, insumos para fabricação dos mesmos ou produtos  para saúde?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 2
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "3250-7/01",
+    "descricao": "Fabricação de instrumentos não eletrônicos e utensílios para uso médico, cirúrgico, odontológico e de laboratório",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "3250-7/02",
+    "descricao": "Fabricação de mobiliário para uso médico, cirúrgico, odontológico e de laboratório",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "3250-7/03",
+    "descricao": "Fabricação de aparelhos e utensílios para correção de defeitos físicos e aparelhos ortopédicos em geral sob encomenda",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "3250-7/04",
+    "descricao": "Fabricação de aparelhos e utensílios para correção de defeitos físicos e aparelhos ortopédicos em geral, exceto sob encomenda",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "3250-7/05",
+    "descricao": "Fabricação de materiais para medicina e odontologia",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "5021-1/01",
+    "descricao": "Transporte por navegação interior de carga, municipal, exceto travessia",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há transporte de produtos sujeitos ao controle sanitário?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": null
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": " transporte de medicamentos, gases medicinais, gases substâncias ativas, produtos de higiene, perfumes, cosméticos, saneantes, insumos para fabricação dos mesmos, produtos para saúde ou material biológico humano?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 2
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "3250-7/09",
+    "descricao": "Serviço de laboratório óptico",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "5021-1/02",
+    "descricao": "Transporte por navegação interior de carga, intermunicipal, interestadual e internacional, exceto travessia",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há transporte de produtos sujeitos ao controle sanitário?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": null
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": " transporte de medicamentos, gases medicinais, gases substâncias ativas, produtos de higiene, perfumes, cosméticos, saneantes, insumos para fabricação dos mesmos, produtos para saúde ou material biológico humano?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 2
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "5120-0/00",
+    "descricao": "Transporte aéreo de carga",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Transporte aéreo de carga",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há transporte de produtos sujeitos ao controle sanitário?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": null
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": " transporte de medicamentos, gases medicinais, gases substâncias ativas, produtos de higiene, perfumes, cosméticos, saneantes, insumos para fabricação dos mesmos, produtos para saúde ou material biológico humano?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 2
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "5211-7/01",
+    "descricao": "Armazéns gerais - emissão de warrant",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Armazéns gerais - emissão de warrant, caso o armazenamento seja apenas de alimentos",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há armazenamento de produtos sujeitos ao controle sanitário?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "3600-6/02",
+    "descricao": "Distribuição de água por caminhões",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Distribuição de água por caminhões",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4621-4/00",
+    "descricao": "Comércio atacadista de café em grão",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4631-1/00",
+    "descricao": "Comércio atacadista de leite e laticínios",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4632-0/01",
+    "descricao": "Comércio atacadista de cereais e leguminosas beneficiados",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4632-0/02",
+    "descricao": "Comércio atacadista de farinhas, amidos e féculas",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4632-0/03",
+    "descricao": "Comércio atacadista de cereais e leguminosas beneficiados, farinhas, amidos e féculas, com atividade de fracionamento e acondicionamento associada",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4634-6/01",
+    "descricao": "Comércio atacadista de carnes bovinas e suínas e derivados",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4634-6/02",
+    "descricao": "Comércio atacadista de aves aItidas e derivados",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4634-6/03",
+    "descricao": "Comércio atacadista de pescados e frutos do mar",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4634-6/99",
+    "descricao": "Comércio atacadista de carnes e derivados de outros animais",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "5211-7/99",
+    "descricao": "Depósitos de mercadorias para terceiros, exceto armazéns gerais e guarda-móveis",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Depósitos de mercadorias para terceiros, exceto armazéns gerais e guarda-móveis, caso o armazenamento seja apenas de alimentos",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há armazenamento de produtos sujeitos ao controle sanitário?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4637-1/01",
+    "descricao": "Comércio atacadista de café torrado, moído e solúvel",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4637-1/02",
+    "descricao": "Comércio atacadista de açúcar",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4637-1/03",
+    "descricao": "Comércio atacadista de óleos e gorduras",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4637-1/05",
+    "descricao": "Comércio atacadista de massas alimentícias",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4637-1/06",
+    "descricao": "Comércio atacadista de sorvetes",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4637-1/99",
+    "descricao": "Comércio atacadista especializado em outros produtos alimentícios não especificados anteriormente",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4639-7/02",
+    "descricao": "Comércio atacadista de produtos alimentícios em geral, com atividade de fracionamento e acondicionamento associada",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4644-3/01",
+    "descricao": "Comércio atacadista de medicamentos e drogas de uso humano",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4645-1/01",
+    "descricao": "Comércio atacadista de instrumentos e materiais para uso médico, cirúrgico, hospitalar e de laboratórios",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4645-1/02",
+    "descricao": "Comércio atacadista de próteses e artigos de ortopedia",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4645-1/03",
+    "descricao": "Comércio atacadista de produtos odontológicos",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4646-0/01",
+    "descricao": "Comércio atacadista de cosméticos e produtos de perfumaria",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4646-0/02",
+    "descricao": "Comércio atacadista de produtos de higiene pessoal",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4649-4/08",
+    "descricao": "Comércio atacadista de produtos de higiene, limpeza e conservação domiciliar",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4649-4/09",
+    "descricao": "Comércio atacadista de produtos de higiene, limpeza e conservação domiciliar, com atividade de fracionamento e acondicionamento associada",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4664-8/00",
+    "descricao": "Comércio atacadista de máquinas, aparelhos e equipamentos para uso odonto-médico-hospitalar; partes e peças",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4711-3/01",
+    "descricao": "Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - hipermercados",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4711-3/02",
+    "descricao": "Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - supermercados",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4721-1/03",
+    "descricao": "Comércio varejista de laticínios e frios",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1033-3/02",
+    "descricao": "Fabricação de sucos de frutas, hortaliças e legumes, exceto concentrados",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há produção de bebidas à base de soja?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4722-9/02",
+    "descricao": "Peixaria",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4729-6/01",
+    "descricao": "TaIcaria",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "6202-3/00",
+    "descricao": "Desenvolvimento e licenciamento de programas de computador customizáveis",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Desenvolvimento e licenciamento de programas de computador customizáveis",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há desenvolvimento de produtos para saúde (softwares que realizam ou influenciam diretamente no diagnóstico, monitoramento, terapia (tratamento) para a saúde)?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4771-7/01",
+    "descricao": "Comércio varejista de produtos farmacêuticos, sem manipulação de fórmulas",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4771-7/02",
+    "descricao": "Comércio varejista de produtos farmacêuticos, com manipulação de fórmulas",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4771-7/03",
+    "descricao": "Comércio varejista de produtos farmacêuticos homeopáticos",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4772-5/00",
+    "descricao": "Comércio varejista de cosméticos, produtos de perfumaria e de higiene pessoal",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "6203-1/00",
+    "descricao": "Desenvolvimento e licenciamento de programas de computador não customizáveis",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Desenvolvimento e licenciamento de programas de computador não-customizáveis",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há desenvolvimento de produtos para saúde (softwares que realizam ou influenciam diretamente no diagnóstico, monitoramento, terapia (tratamento) para a saúde)?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "4789-0/05",
+    "descricao": "Comércio varejista de produtos saneantes domissanitários",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "7120-1/00",
+    "descricao": "Testes e análises técnicas",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há realização de uma das seguintes análises: física, química, biotecnológica, bromatológica, cromatográfica, biológica, microbiológica, toxicológica e outros testes analíticos em produtos sujeitos à Vigilância Sanitária (água para consumo humano e outros fins, alimentos, medicamentos, insumos farmacêuticos, produtos para saúde, cosméticos, produtos de higiene, perfumes, saneantes domissanitários)?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      },
+      {
+        "id": "q1",
+        "text": "O laboratório realiza ensaios clínicos?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "C"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "B"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "7210-0/00",
+    "descricao": "Pesquisa e desenvolvimento experimental em ciências físicas e naturais",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "A",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há realização de pesquisas de bioequivalência, biodisponibilidade, ensaios clínicos ou análise de controle de qualidade de produtos sujeitos ao controle sanitário?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "7729-2/03",
+    "descricao": "Aluguel de material médico",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Aluguel de material médico",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há aluguel de produtos para saúde de uso profissional?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 2
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "7739-0/02",
+    "descricao": "Aluguel de equipamentos científicos, médicos e hospitalares, sem operador",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Aluguel de equipamentos científicos, médicos e hospitalares, sem operador",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há aluguel de produtos para saúde de uso profissional?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 2
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8129-0/00",
+    "descricao": "Atividades de limpeza não especificadas anteriormente",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há processamento de produtos para saúde (materiais médico hospitalares)?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8292-0/00",
+    "descricao": "Envasamento e empacotamento sob contrato",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Ocorre o envase ou empacotamento de medicamentos, gases medicinais, gases substâncias ativas, produtos de higiene, perfumes, cosméticos, saneantes, insumos para fabricação dos mesmos, produtos para saúde ou alimentos (exceto de origem animal)?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8630-5/03",
+    "descricao": "Atividade médica ambulatorial restrita a consultas",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há realização de procedimentos invasivos? ",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 2
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8650-0/99",
+    "descricao": "Atividades de profissionais da área de saúde não especificadas anteriormente",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há realização de procedimentos invasivos ?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": null
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "Há realização de atendimento de optometria com nível superior (tecnólogo ou graduado) ?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8690-9/99",
+    "descricao": "Outras atividades de atenção à saúde humana não especificadas anteriormente",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Outras atividades de atenção à saúde humana não especificadas anteriormente",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há realização de procedimentos invasivos ou uso de radiação ionizante?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 2
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1043-1/00",
+    "descricao": "Fabricação de margarina e outras gorduras vegetais e de óleos não comestíveis de animais",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há exclusivamente a produção de não comestíveis?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 1
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8720-4/01",
+    "descricao": "Atividades de centros de assistência psicossocial",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "O estabelecimento possui leitos de internação?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 2
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "5611-2/01",
+    "descricao": "Restaurantes e similares",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "5620-1/01",
+    "descricao": "Fornecimento de alimentos preparados preponderantemente para empresas",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "5620-1/02",
+    "descricao": "Serviços de alimentação para eventos e recepções - bufê",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "5620-1/03",
+    "descricao": "Cantinas - serviços de alimentação privativos",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "9321-2/00",
+    "descricao": "Parques de diversão e parques temáticos",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "O estabelecimento possui piscina?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "9601-7/03",
+    "descricao": "Toalheiros",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há processamento de roupas hospitalares?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 2
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "9603-3/99",
+    "descricao": "Atividades funerárias e serviços relacionados não especificados anteriormente",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "O serviço realiza atividade de necrópsia?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 2
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "7500-1/00",
+    "descricao": "Atividades veterinárias",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Atividades veterinárias, exceto os estabelecimentos que possuam equipamentos emissores de radiação ionizante, ficando a avaliação de área física restrita ao setor de radiologia",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "O resultado do exercício da atividade inclui a utilização de medicamentos controlados de uso humano e/ou realizam serviços de radiologia diagnóstica?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "5590-6/99",
+    "descricao": "Outros alojamentos não especificados anteriormente",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Outros alojamentos não especificados anteriormente",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há atendimento exclusivo de crianças até 3 anos de idade?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 2
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1731-1/00",
+    "descricao": "Fabricação de emIlagens de papel",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "A",
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Fabricação de embalagens de papel",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há a fabricação de embalagem para esterilização de produtos para saúde ou embalagem para contato direto com alimentos?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8630-5/02",
+    "descricao": "Atividade médica ambulatorial com recursos para realização de exames complementares",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há realização apenas de exames psicotécnicos?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8122-2/00",
+    "descricao": "Imunização e controle de pragas urInas",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "9602-5/02",
+    "descricao": "Atividades de estética e outros serviços de cuidados com a beleza",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Atividades de estética e outros serviços de cuidados com a beleza, caso o estabelecimento realize somente atividade de depilação a laser",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há procedimentos de estética invasivo não cirúrgico sob responsabilidade técnica de profissional de nível superior da área da saúde, ou a utilização de equipamentos (tais como laser e luz pulsada, criolipólise, ultraformer, dentre outros) e dispositivos (caneta injetora de ativos - pressurizada ou não, dispositivos para microagulhamento, micropigmentação dentre outros)?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 2
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1061-9/01",
+    "descricao": "Beneficiamento de arroz",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Beneficiamento de arroz",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "O beneficiamento é artesanal?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      },
+      {
+        "id": "q1",
+        "text": "O beneficiamento de arroz é realizado por métodos artesanais?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8511-2/00",
+    "descricao": "Educação infantil - creche",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8512-1/00",
+    "descricao": "Educação infantil - pré-escola",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8513-9/00",
+    "descricao": "Ensino fundamental",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8610-1/01",
+    "descricao": "Atividades de atendimento hospitalar, exceto pronto-socorro e unidades para atendimento a urgências",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8610-1/02",
+    "descricao": "Atividades de atendimento em pronto-socorro e unidades hospitalares para atendimento a urgências",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8621-6/01",
+    "descricao": "UTI móvel",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "UTI móvel",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8621-6/02",
+    "descricao": "Serviços móveis de atendimento a urgências, exceto por UTI móvel",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Serviços móveis de atendimento a urgências, exceto por UTI móvel",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8622-4/00",
+    "descricao": "Serviços de remoção de pacientes, exceto os serviços móveis de atendimento a urgências",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8630-5/01",
+    "descricao": "Atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8800-6/00",
+    "descricao": "Serviços de assistência social sem alojamento",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Serviços de assistência social sem alojamento",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "O estabelecimento funciona como Centro Dia para Idoso?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1031-7/00",
+    "descricao": "Fabricação de conservas de frutas",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há exclusivamente produção de polpa de fruta para bebida?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 1
+          },
+          {
+            "value": "NÃO",
+            "risk": null
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "A produção é artesanal?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      },
+      {
+        "id": "q1",
+        "text": "A produção de conservas de frutas é realizada por métodos artesanais?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": ""
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "O estabelecimento é micro, pequena ou média empresa?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "B"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8630-5/04",
+    "descricao": "Atividade odontológica",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8630-5/06",
+    "descricao": "Serviços de vacinação e imunização humana",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8630-5/07",
+    "descricao": "Atividades de reprodução humana assistida",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8630-5/99",
+    "descricao": "Atividades de atenção ambulatorial não especificadas anteriormente",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8640-2/01",
+    "descricao": "Laboratórios de anatomia patológica e citológica",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8640-2/02",
+    "descricao": "Laboratórios clínicos",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "O laboratório realiza ensaios clínicos?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "C"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "B"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8640-2/03",
+    "descricao": "Serviços de diálise e nefrologia",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8640-2/04",
+    "descricao": "Serviços de tomografia",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8640-2/05",
+    "descricao": "Serviços de diagnóstico por imagem com uso de radiação ionizante, exceto tomografia",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8640-2/06",
+    "descricao": "Serviços de ressonância magnética",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8640-2/07",
+    "descricao": "Serviços de diagnóstico por imagem sem uso de radiação ionizante, exceto ressonância magnética",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8640-2/08",
+    "descricao": "Serviços de diagnóstico por registro gráfico - ECG, EEG e outros exames análogos",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8640-2/09",
+    "descricao": "Serviços de diagnóstico por métodos ópticos - endoscopia e outros exames análogos",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8640-2/10",
+    "descricao": "Serviços de quimioterapia",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8640-2/11",
+    "descricao": "Serviços de radioterapia",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8640-2/12",
+    "descricao": "Serviços de hemoterapia",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8640-2/13",
+    "descricao": "Serviços de litotripsia",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8640-2/14",
+    "descricao": "Serviços de Incos de células e tecidos humanos",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8640-2/99",
+    "descricao": "Atividades de serviços de complementação diagnóstica e terapêutica não especificadas anteriormente",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8650-0/01",
+    "descricao": "Atividades de enfermagem",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "2312-5/00",
+    "descricao": "Fabricação de emIlagens de vidro",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "A",
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Fabricação de embalagens de vidro",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há produção de embalagem para alimentos?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8650-0/07",
+    "descricao": "Atividades de terapia de nutrição enteral e parenteral",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "2591-8/00",
+    "descricao": "Fabricação de emIlagens metálicas",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Fabricação de embalagens metálicas",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há produção de embalagem para alimentos?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8690-9/01",
+    "descricao": "Atividades de práticas integrativas e complementares em saúde humana",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8690-9/02",
+    "descricao": "Atividades de Incos de leite humano",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8690-9/03",
+    "descricao": "Atividades de acupuntura",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8690-9/04",
+    "descricao": "Atividades de podologia",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8650-0/04",
+    "descricao": "Atividades de fisioterapia",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há realização de procedimentos invasivos ou procedimentos de estética?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8711-5/01",
+    "descricao": "Clínicas e residências geriátricas",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8711-5/02",
+    "descricao": "Instituições de longa permanência para idosos",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8711-5/03",
+    "descricao": "Atividades de assistência a deficientes físicos, imunodeprimidos e convalescentes",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8711-5/04",
+    "descricao": "Centros de apoio a pacientes com câncer e com AIDS",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8711-5/05",
+    "descricao": "Condomínios residenciais para idosos",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8712-3/00",
+    "descricao": "Atividades de fornecimento de infraestrutura de apoio e assistência a paciente no domicílio",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1099-6/99",
+    "descricao": "Fabricação de outros produtos alimentícios não especificados anteriormente",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "A produção é artesanal e de alimentos com dispensa de registro sanitário?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 2
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      },
+      {
+        "id": "q1",
+        "text": "A produção é realizada por métodos artesanais?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "A"
+          },
+          {
+            "value": "NÃO",
+            "elenco": ""
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "text": "O estabelecimento é micro, pequena ou média empresa?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "B"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "C"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8720-4/99",
+    "descricao": "Atividades de assistência psicossocial e à saúde a portadores de distúrbios psíquicos, deficiência mental e dependência química e grupos similares não especificadas anteriormente",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Atividades de assistência psicossocial e à saúde a portadores de distúrbios psíquicos, deficiência mental e dependência química e grupos similares não especificados anteriormente",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8730-1/01",
+    "descricao": "Orfanatos",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Orfanatos",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8730-1/02",
+    "descricao": "Albergues assistenciais",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "8730-1/99",
+    "descricao": "Atividades de assistência social prestadas em residências coletivas e particulares não especificadas anteriormente",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1122-4/99",
+    "descricao": "Fabricação de outras bebidas não alcoólicas não especificadas anteriormente",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há exclusivamente a produção de alimentos com Padrão de Identidade e Qualidade do Ministério da Agricultura, Pecuária e Abastecimeto?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 1
+          },
+          {
+            "value": "NÃO",
+            "risk": 3
+          }
+        ]
+      },
+      {
+        "id": "q1",
+        "text": "O estabelecimento é de grande porte?",
+        "options": [
+          {
+            "value": "SIM",
+            "elenco": "C"
+          },
+          {
+            "value": "NÃO",
+            "elenco": "A"
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "9312-3/00",
+    "descricao": "Clubes sociais, esportivos e similares",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "9313-1/00",
+    "descricao": "Atividades de condicionamento físico",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1732-0/00",
+    "descricao": "Fabricação de emIlagens de cartolina e papel-cartão",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "A",
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Fabricação de embalagens de cartolina e papel-cartão",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há produção de embalagem para contato direto com alimentos?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "9601-7/01",
+    "descricao": "Lavanderias",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "1733-8/00",
+    "descricao": "Fabricação de chapas e de emIlagens de papelão ondulado",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "A",
+    "dispensadoProjetoArquitetonico": true,
+    "descricaoDispensaProjetoArquitetonico": "Fabricação de chapas e de embalagens de papelão ondulado",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há produção de embalagem para contato direto com alimentos?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "9602-5/01",
+    "descricao": "Cabeleireiros, manicure e pedicure",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "2222-6/00",
+    "descricao": "Fabricação de emIlagens de material plástico",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": "A",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há produção de embalagem para contato direto com alimentos?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "9603-3/01",
+    "descricao": "Gestão e manutenção de cemitérios",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "9603-3/02",
+    "descricao": "Serviços de cremação",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "9603-3/03",
+    "descricao": "Serviços de sepultamento",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "9603-3/04",
+    "descricao": "Serviços de funerárias",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "9603-3/05",
+    "descricao": "Serviços de somatoconservação",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "2014-2/00",
+    "descricao": "Fabricação de gases industriais",
+    "observacao": "",
+    "riscoFixo": null,
+    "elencoFixo": null,
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [
+      {
+        "id": "q1",
+        "text": "Há fabricação de gases medicinais ou gases substâncias ativas?",
+        "options": [
+          {
+            "value": "SIM",
+            "risk": 3
+          },
+          {
+            "value": "NÃO",
+            "risk": 1
+          }
+        ]
+      }
+    ],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "9609-2/05",
+    "descricao": "Atividades de sauna e Inhos",
+    "observacao": "",
+    "riscoFixo": 2,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "cnae": "9609-2/06",
+    "descricao": "Serviços de tatuagem e colocação de piercing",
+    "observacao": "",
+    "riscoFixo": 3,
+    "elencoFixo": "C",
+    "dispensadoProjetoArquitetonico": false,
+    "descricaoDispensaProjetoArquitetonico": "",
+    "perguntas": [],
+    "classificacao": {
+      "visa": null,
+      "tipologia": "",
+      "perigos": "",
+      "probabilidade": null,
+      "potencial": null,
+      "nivelCalculado": null
+    },
+    "legislacoes": [
+      {
+        "id": "",
+        "tipo": "",
+        "numero": "",
+        "orgao": "",
+        "dataPublicacao": "",
+        "link": ""
+      }
+    ]
+  }
+]
