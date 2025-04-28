@@ -5765,8 +5765,8 @@
         ]
       },
       {
-        "id": "q1",
-        "text": "A produção de conservas de frutas é realizada por métodos artesanais?",
+        "id": "q2",
+        "text": "A produção é artesanal?",
         "options": [
           {
             "value": "SIM",
@@ -5779,7 +5779,7 @@
         ]
       },
       {
-        "id": "q2",
+        "id": "q3",
         "text": "O estabelecimento é micro, pequena ou média empresa?",
         "options": [
           {
