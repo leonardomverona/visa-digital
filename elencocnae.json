@@ -813,7 +813,7 @@
     "Observação": "Se a produção for artesanal.",
     "Perguntas": [
       {
-        "id": "q2",
+        "id": "q1",
         "text": "A produção é artesanal?",
         "options": [
           {
@@ -827,7 +827,7 @@
         ]
       },
       {
-        "id": "q3",
+        "id": "q2",
         "text": "O estabelecimento é micro, pequena ou média empresa?",
         "options": [
           {
